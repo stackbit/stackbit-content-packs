@@ -1,0 +1,109 @@
+{
+  "type": "Config",
+  "backgroundColor": "bg-white",
+  "navBar": {
+    "desktopNavVariant": "variant-c",
+    "mobileNavVariant": "variant-a",
+    "primaryColors": "colors-a",
+    "secondaryColors": "colors-a",
+    "width": "full",
+    "title": "River Catch",
+    "isTitleVisible": true,
+    "primaryLinks": [
+      {
+        "type": "Link",
+        "label": "Home",
+        "url": "/",
+        "altText": ""
+      },
+      {
+        "type": "Link",
+        "label": "About",
+        "url": "/about",
+        "altText": ""
+      },
+      {
+        "type": "Link",
+        "label": "Adventures",
+        "url": "/adventures",
+        "altText": ""
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "type": "Button",
+        "label": "Contact Us",
+        "url": "/",
+        "altText": "Sign up",
+        "style": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "colors": "colors-c",
+    "width": "full",
+    "title": "River Catch",
+    "isTitleVisible": true,
+    "contacts": {
+      "phoneNumber": "850-123-5021",
+      "phoneAltText": "Our phone",
+      "email": "info@lorem.mail",
+      "emailAltText": "Our email",
+      "address": "312 Lovely Street, NY",
+      "addressAltText": "Our address"
+    },
+    "copyrightText": "Powered by Stackbit",
+    "primaryLinks": [
+      {
+        "type": "Link",
+        "label": "Home",
+        "url": "/",
+        "altText": ""
+      },
+      {
+        "type": "Link",
+        "label": "About",
+        "url": "/about",
+        "altText": ""
+      },
+      {
+        "type": "Link",
+        "label": "Adventures",
+        "url": "/adventures",
+        "altText": ""
+      }
+    ],
+    "socialLinks": [
+      {
+        "type": "Link",
+        "label": "Twitter",
+        "url": "/",
+        "icon": "twitter"
+      },
+      {
+        "type": "Link",
+        "label": "Instagram",
+        "url": "/",
+        "icon": "instagram"
+      },
+      {
+        "type": "Link",
+        "label": "Facebook",
+        "url": "/",
+        "icon": "facebook"
+      }
+    ],
+    "legalLinks": [
+      {
+        "type": "Link",
+        "label": "Privacy Policy",
+        "url": "/"
+      },
+      {
+        "type": "Link",
+        "label": "Terms & Conditions",
+        "url": "/"
+      }
+    ]
+  }
+}
