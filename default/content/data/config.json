@@ -1,0 +1,121 @@
+{
+  "type": "Config",
+  "backgroundColor": "bg-white",
+  "navBar": {
+    "desktopNavVariant": "variant-a",
+    "mobileNavVariant": "variant-a",
+    "primaryColors": "colors-f",
+    "secondaryColors": "colors-a",
+    "width": "wide",
+    "title": "Eco Fish",
+    "isTitleVisible": false,
+    "logo": {
+      "type": "ImageBlock",
+      "url": "/images/logo.svg",
+      "altText": "Logo"
+    },
+    "primaryLinks": [
+      {
+        "type": "Link",
+        "label": "Home",
+        "url": "/",
+        "altText": ""
+      },
+      {
+        "type": "Link",
+        "label": "Blog",
+        "url": "/blog",
+        "altText": ""
+      },
+      {
+        "type": "Link",
+        "label": "Example",
+        "url": "/example",
+        "altText": ""
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "type": "Link",
+        "label": "Sign in",
+        "url": "/",
+        "altText": "Sign in",
+        "style": "link"
+      },
+      {
+        "type": "Button",
+        "label": "Sign up",
+        "url": "/",
+        "altText": "Sign up",
+        "style": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "colors": "colors-f",
+    "width": "wide",
+    "title": "Eco Fish",
+    "isTitleVisible": true,
+    "logo": {
+      "type": "ImageBlock",
+      "url": "/images/logo.svg",
+      "altText": "Logo"
+    },
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.  \nEaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "contacts": {
+      "phoneNumber": "850-123-5021",
+      "phoneAltText": "Our phone",
+      "email": "info@lorem.mail",
+      "emailAltText": "Our email",
+      "address": "312 Lovely Street, NY",
+      "addressAltText": "Our address"
+    },
+    "copyrightText": "💖 powered by Stackbit",
+    "primaryLinks": [
+      {
+        "type": "Link",
+        "label": "Home",
+        "url": "/",
+        "altText": ""
+      },
+      {
+        "type": "Link",
+        "label": "Blog",
+        "url": "/blog",
+        "altText": ""
+      }
+    ],
+    "socialLinks": [
+      {
+        "type": "Link",
+        "label": "Twitter",
+        "url": "/",
+        "icon": "twitter"
+      },
+      {
+        "type": "Link",
+        "label": "Instagram",
+        "url": "/",
+        "icon": "instagram"
+      },
+      {
+        "type": "Link",
+        "label": "Facebook",
+        "url": "/",
+        "icon": "facebook"
+      }
+    ],
+    "legalLinks": [
+      {
+        "type": "Link",
+        "label": "Privacy Policy",
+        "url": "/"
+      },
+      {
+        "type": "Link",
+        "label": "Terms & Conditions",
+        "url": "/"
+      }
+    ]
+  }
+}
