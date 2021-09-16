@@ -82,15 +82,17 @@ function generateContent(themeName) {
 }
 
 function generateStyles(themeName) {
+  const themeDemoFolderPath = path.join(demoFolderPath, themeName);
+
   const style = themesManifestData.themes[themeName].style;
   const tailwindConfig = `tailwind.${style}.config.js`
   console.log(`Generating tailwind.config: ${tailwindConfig}`)
-  const data = fs.readFileSync(path.join(baseFolderPath, 'tailwind.config.js'), 'utf-8');
-  const newData = data.replace("presets: [require('@stackbit/components/themes/tailwind.default.config')],", `presets: [require('@stackbit/components/themes/${tailwindConfig}')],`);
-  fs.writeFileSync(path.join(__dirname, 'tmp/demos', themeName, 'tailwind.config.js'), newData, 'utf-8');
-
+  const tailwindData = fs.readFileSync(path.join(baseFolderPath, 'tailwind.config.js'), 'utf-8');
+  const newTailwindData = tailwindData.replace("presets: [require('@stackbit/components/styles/default/tailwind.default.config')],", `presets: [require('@stackbit/components/styles/${style}/${tailwindConfig}')],`);
+  fs.writeFileSync(path.join(themeDemoFolderPath, 'tailwind.config.js'), newTailwindData, 'utf-8');
   
   console.log(`Generating theme.css`)
-  const css = `@import '@stackbit/components/themes/${themeName}/theme.css'`;
-  fs.writeFileSync(path.join(__dirname, 'tmp/demos/', themeName, 'src/css/', 'theme.css'), css, 'utf8');
+  const cssData = fs.readFileSync(path.join(baseFolderPath, 'src/css', 'main.css'), 'utf-8');
+  const newCssData = cssData.replace("@import '@stackbit/components/styles/default/style.css';", `@import '@stackbit/components/styles/${style}/style.css';`);
+  fs.writeFileSync(path.join(themeDemoFolderPath, 'src/css/', 'main.css'), newCssData, 'utf8');
 };
