@@ -1,12 +1,10 @@
 {
   "themes": {
+    "default": {
+      "style": "default",
+    },
     "fish": {
-      "name": "fish",
-      "path": "fish",
-      "title": "Fish",
-      "repo": "stackbit-themes/classic",
-      "description": "The classic theme for a marketing site",
-      "tailwindConfig": "@stackbit/components/themes/tailwind.bold.config"
+      "style": "retro",
     }
   }
 }
