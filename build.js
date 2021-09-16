@@ -1,8 +1,8 @@
-var nodegit = require("nodegit");
-var fs = require("fs-extra");
-var path = require("path")
+const nodegit = require("nodegit");
+const fs = require("fs-extra");
+const path = require("path")
 
-var token = process.env.GITHUB_TOKEN
+const token = process.env.GITHUB_TOKEN
 
 if (!token) {
   throw new Error(
@@ -11,7 +11,13 @@ if (!token) {
 }
 
 const themesManifestFile = path.join(__dirname, './manifest.json');
-const themesManifestData = fs.existsSync(themesManifestFile) ? JSON.parse(fs.readFileSync(themesManifestFile)) : {};
+const themesManifestData = fs.existsSync(themesManifestFile) ? JSON.parse(fs.readFileSync(themesManifestFile)) : null;
+
+if (!themesManifestData) {
+  throw new Error(
+      'Cannot access Github API - environment variable "GITHUB_TOKEN" is missing'
+  )
+}
 
 const tmpFolderPath = path.join(__dirname, 'tmp');
 const baseFolderPath = path.join(tmpFolderPath, 'base');
@@ -57,25 +63,34 @@ if (!fs.existsSync(baseFolderPath)) {
 
 function buildDemos() {
   Object.keys(themesManifestData.themes).forEach((themeName, index) => {
-    console.log("Build theme demo =>", themeName)
+    console.log("Building Theme:", themeName)
     generateContent(themeName)
     generateStyles(themeName)
   })
 }
 
 function generateContent(themeName) {
-  // Copy the base 
-  fs.copySync(baseFolderPath, path.join(demoFolderPath, themeName))
+  const themeContentFolderPath = path.join(__dirname, themeName);
+  const themeDemoFolderPath = path.join(demoFolderPath, themeName);
+  
+  // Copy the base
+  console.log(`Copying Base: ${baseFolderPath} => ${themeDemoFolderPath}`)
+  fs.copySync(baseFolderPath, themeDemoFolderPath)
   // Copy the content
-  fs.copySync(path.join(__dirname, themeName), path.join(demoFolderPath, themeName))
+  console.log(`Copying Content: ${themeContentFolderPath} => ${themeDemoFolderPath}`)
+  fs.copySync(themeContentFolderPath, themeDemoFolderPath);
 }
 
 function generateStyles(themeName) {
   const style = themesManifestData.themes[themeName].style;
+  const tailwindConfig = `tailwind.${style}.config.js`
+  console.log(`Generating tailwind.config: ${tailwindConfig}`)
   const data = fs.readFileSync(path.join(baseFolderPath, 'tailwind.config.js'), 'utf-8');
-  const newData = data.replace("presets: [require('@stackbit/components/themes/tailwind.default.config')],", `presets: [require('@stackbit/components/themes/tailwind.${style}.config')],`);
+  const newData = data.replace("presets: [require('@stackbit/components/themes/tailwind.default.config')],", `presets: [require('@stackbit/components/themes/${tailwindConfig}')],`);
   fs.writeFileSync(path.join(__dirname, 'tmp/demos', themeName, 'tailwind.config.js'), newData, 'utf-8');
 
+  
+  console.log(`Generating theme.css`)
   const css = `@import '@stackbit/components/themes/${themeName}/theme.css'`;
   fs.writeFileSync(path.join(__dirname, 'tmp/demos/', themeName, 'src/css/', 'theme.css'), css, 'utf8');
 };

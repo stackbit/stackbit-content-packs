@@ -1,10 +1,10 @@
 {
   "themes": {
     "default": {
-      "style": "default",
+      "style": "default"
     },
     "fish": {
-      "style": "retro",
+      "style": "retro"
     }
   }
 }
