@@ -1,6 +1,11 @@
 {
-  "devDependencies": {
-    "fs-extra": "^10.0.0",
-    "nodegit": "^0.27.0"
-  }
+  "name": "stackbit-content-packs",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackbit/stackbit-content-packs.git"
+  },
+  "author": "",
+  "homepage": "https://github.com/stackbit/stackbit-content-packs#readme",
+  "description": ""
 }
