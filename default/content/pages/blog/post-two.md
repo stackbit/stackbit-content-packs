@@ -1,20 +1,20 @@
 ---
-title: As fresh as it gets
+title: Post Title Two
 layout: PostLayout
 date: '2021-07-01'
 excerpt: |-
-  Same day delivery, cleaned, on ice, ready to be eaten.
+  Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh.
 thumbImage:
   type: ImageBlock
-  url: https://source.unsplash.com/ExM4EPGT_s4/640x480
-  altText: Mackerels
+  url: "/images/post-3.jpeg"
+  altText: "Post Image"
 bottomSections:
   - type: CtaSection
     variant: variant-b
     colors: colors-e
     width: wide
-    height: auto
-    alignHoriz: left
+    height: short
+    textAlign: left
     title: Let's do this
     text: |-
       The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.

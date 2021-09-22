@@ -6,8 +6,9 @@ sections:
     variant: variant-a
     colors: colors-e
     width: wide
+    contentAlignHoriz: center
     posts:
-      - content/pages/blog/as-fresh-as-it-gets.md
-      - content/pages/blog/bi-weekly-subscription.md
-      - content/pages/blog/sustainability-at-its-purest.md
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
 ---

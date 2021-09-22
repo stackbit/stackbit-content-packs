@@ -4,11 +4,11 @@
   "navBar": {
     "desktopNavVariant": "variant-a",
     "mobileNavVariant": "variant-a",
-    "primaryColors": "colors-f",
+    "primaryColors": "colors-a",
     "secondaryColors": "colors-a",
     "width": "wide",
-    "title": "Eco Fish",
-    "isTitleVisible": false,
+    "title": "Starter",
+    "isTitleVisible": true,
     "logo": {
       "type": "ImageBlock",
       "url": "/images/logo.svg",
@@ -54,7 +54,7 @@
   "footer": {
     "colors": "colors-f",
     "width": "wide",
-    "title": "Eco Fish",
+    "title": "Starter",
     "isTitleVisible": true,
     "logo": {
       "type": "ImageBlock",
@@ -70,7 +70,7 @@
       "address": "312 Lovely Street, NY",
       "addressAltText": "Our address"
     },
-    "copyrightText": "💖 powered by Stackbit",
+    "copyrightText": "Powered by Stackbit",
     "primaryLinks": [
       {
         "type": "Link",
@@ -87,21 +87,24 @@
     ],
     "socialLinks": [
       {
-        "type": "Link",
-        "label": "Twitter",
+        "type": "Social",
+        "altText": "Twitter",
         "url": "/",
+        "showIcon": true,
         "icon": "twitter"
       },
       {
-        "type": "Link",
-        "label": "Instagram",
+        "type": "Social",
+        "altText": "Instagram",
         "url": "/",
+        "showIcon": true,
         "icon": "instagram"
       },
       {
-        "type": "Link",
-        "label": "Facebook",
+        "type": "Social",
+        "altText": "Facebook",
         "url": "/",
+        "showIcon": true,
         "icon": "facebook"
       }
     ],

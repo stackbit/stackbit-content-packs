@@ -7,16 +7,16 @@ sections:
     colors: colors-e
     width: wide
     height: short
-    topGap: none
+    topGap: large
     bottomGap: none
-    alignHoriz: left
+    textAlign: left
     title: Join our club
     text: >-
       We will notify you every time a shipment is heading to your neighborhood,
       and you could immediatly let us know if you want in or not.
     feature:
       type: ImageBlock
-      url: /images/lobster.jpg
+      url: /images/contact.png
       altText: Fisherman holding lobster
     form:
       type: FormBlock
@@ -45,12 +45,13 @@ sections:
           label: Sign me up to receive updates
           width: full
       submitLabel: Send Message
-  - type: ContentSection
+  - type: TextSection
     colors: colors-a
     width: wide
     height: short
-    alignHoriz: left
-    badge: Small text
+    textAlign: left
+    badge:
+      label: Small text
     title: The Section Title
     subtitle: The section subtitle
     text: >-
@@ -67,7 +68,7 @@ sections:
     height: short
     topGap: none
     bottomGap: none
-    alignHoriz: center
+    textAlign: center
     title: Let's do this
     text: >-
       The Stackbit theme is flexible and scalable to every need. It can manage
@@ -78,170 +79,26 @@ sections:
         label: Get Started
         style: primary
   - type: FeaturedPeopleSection
-    variant: variant-a
-    colors: colors-a
-    width: wide
-    height: short
-    alignHoriz: center
-    badge: Know Our Team
-    title: The Team
-    subtitle: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium.
-    people:
-      - firstName: Desmond
-        lastName: Eagle
-        role: Product Manager
-        bio: Vincent Van Gogh’s most popular painting, The Starry Night.
-        image:
-          type: ImageBlock
-          url: /images/desmond-eagle.jpg
-          altText: Photo of Desmond Eagle
-      - firstName: Dianne
-        lastName: Ameter
-        role: Product Manager
-        bio: Vincent Van Gogh’s most popular painting, The Starry Night.
-        image:
-          type: ImageBlock
-          url: /images/dianne-ameter.jpg
-          altText: Photo of Dianne Ameter
-      - firstName: Hilary
-        lastName: Ouse
-        role: Product Manager
-        bio: Vincent Van Gogh’s most popular painting, The Starry Night.
-        image:
-          type: ImageBlock
-          url: /images/hilary-ouse.jpg
-          altText: Photo of Hilary Ouse
-      - firstName: Hugh
-        lastName: Saturation
-        role: Product Manager
-        bio: Vincent Van Gogh’s most popular painting, The Starry Night.
-        image:
-          type: ImageBlock
-          url: /images/hugh-saturation.jpg
-          altText: Photo of Hugh Saturation
-  - type: FeaturedPostsSection
-    variant: variant-a
+    variant: variant-c
     colors: colors-a
     width: full
-    height: short
-    alignHoriz: center
-    actions:
-      - type: Button
-        url: '#'
-        label: View More
-        style: primary
+    textAlign: center
+    title: Our Team
+    topGap: small
+    bottomGap: large
+    people:
+      - content/data/team/dianne-ameter.json
+      - content/data/team/desmond-eagle.json
+      - content/data/team/hilary-ouse.json
+      - content/data/team/hugh-saturation.json
+  - type: FeaturedPostsSection
+    variant: variant-a
+    colors: colors-e
+    width: wide
     posts:
-      - __metadata: {}
-        title: Sustainability at it’s purest
-        date: '2021-07-03'
-        excerpt: >-
-          We’re local, seasonal fisherman, supporting fishing restrictions. We
-          fish what the sea has to offer, nothing more, and no cheating.
-        thumbImage:
-          type: ImageBlock
-          url: /images/fisherman.jpg
-          altText: Fisherman
-        markdown_content: >+
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala
-          virtuti magnitudine obruebantur. Duo Reges: constructio interrete. An
-          hoc usque quaque, aliter in vita? Gracchum patrem non beatiorem fuisse
-          quam fillum, cum alter stabilire rem publicam studuerit, alter
-          evertere. Quo plebiscito decreta a senatu est consuli quaestio Cn.
-          Illud non continuo, ut aeque incontentae. Atqui pugnantibus et
-          contrariis studiis consiliisque semper utens nihil quieti videre,
-          nihil tranquilli potest. Itaque hoc frequenter dici solet a vobis, non
-          intellegere nos, quam dicat Epicurus voluptatem. Sin kakan malitiam
-          dixisses, ad aliud nos unum certum vitium consuetudo Latina
-          traduceret.
-
-
-          ## Sed Ille, UT Dixi, Vitiose
-
-
-          Utrum igitur tibi litteram videor an totas paginas commovere? Potius
-          inflammat, ut coercendi magis quam dedocendi esse videantur. Ne in
-          odium veniam, si amicum destitero tueri. Ne amores quidem sanctos a
-          sapiente alienos esse arbitrantur. Quid ergo aliud intellegetur nisi
-          uti ne quae pars naturae neglegatur? Quis istud, quaeso, nesciebat?
-          Primum divisit ineleganter; Hoc unum Aristo tenuit: praeter vitia
-          atque virtutes negavit rem esse ullam aut fugiendam aut expetendam. Et
-          ille ridens: Video, inquit, quid agas; In his igitur partibus duabus
-          nihil erat, quod Zeno commutare gestiret.
-
-      - __metadata: {}
-        title: As fresh as it gets
-        date: '2021-07-01'
-        excerpt: Same day delivery, cleaned, on ice, ready to be eaten.
-        thumbImage:
-          type: ImageBlock
-          url: /images/mackerels.jpg
-          altText: Mackerels
-        markdown_content: >+
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala
-          virtuti magnitudine obruebantur. Duo Reges: constructio interrete. An
-          hoc usque quaque, aliter in vita? Gracchum patrem non beatiorem fuisse
-          quam fillum, cum alter stabilire rem publicam studuerit, alter
-          evertere. Quo plebiscito decreta a senatu est consuli quaestio Cn.
-          Illud non continuo, ut aeque incontentae. Atqui pugnantibus et
-          contrariis studiis consiliisque semper utens nihil quieti videre,
-          nihil tranquilli potest. Itaque hoc frequenter dici solet a vobis, non
-          intellegere nos, quam dicat Epicurus voluptatem. Sin kakan malitiam
-          dixisses, ad aliud nos unum certum vitium consuetudo Latina
-          traduceret.
-
-
-          ## Sed Ille, UT Dixi, Vitiose
-
-
-          Utrum igitur tibi litteram videor an totas paginas commovere? Potius
-          inflammat, ut coercendi magis quam dedocendi esse videantur. Ne in
-          odium veniam, si amicum destitero tueri. Ne amores quidem sanctos a
-          sapiente alienos esse arbitrantur. Quid ergo aliud intellegetur nisi
-          uti ne quae pars naturae neglegatur? Quis istud, quaeso, nesciebat?
-          Primum divisit ineleganter; Hoc unum Aristo tenuit: praeter vitia
-          atque virtutes negavit rem esse ullam aut fugiendam aut expetendam. Et
-          ille ridens: Video, inquit, quid agas; In his igitur partibus duabus
-          nihil erat, quod Zeno commutare gestiret.
-
-      - __metadata: {}
-        title: Bi-weekly subscription
-        date: '2021-06-28'
-        excerpt: >-
-          This feature is the thing you were missing in your workflow, thank god
-          we have it for you to use.
-        thumbImage:
-          type: ImageBlock
-          url: /images/fish-lemon.jpg
-          altText: Raw fish, spices, lemon
-        markdown_content: >+
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala
-          virtuti magnitudine obruebantur. Duo Reges: constructio interrete. An
-          hoc usque quaque, aliter in vita? Gracchum patrem non beatiorem fuisse
-          quam fillum, cum alter stabilire rem publicam studuerit, alter
-          evertere. Quo plebiscito decreta a senatu est consuli quaestio Cn.
-          Illud non continuo, ut aeque incontentae. Atqui pugnantibus et
-          contrariis studiis consiliisque semper utens nihil quieti videre,
-          nihil tranquilli potest. Itaque hoc frequenter dici solet a vobis, non
-          intellegere nos, quam dicat Epicurus voluptatem. Sin kakan malitiam
-          dixisses, ad aliud nos unum certum vitium consuetudo Latina
-          traduceret.
-
-
-          ## Sed Ille, UT Dixi, Vitiose
-
-
-          Utrum igitur tibi litteram videor an totas paginas commovere? Potius
-          inflammat, ut coercendi magis quam dedocendi esse videantur. Ne in
-          odium veniam, si amicum destitero tueri. Ne amores quidem sanctos a
-          sapiente alienos esse arbitrantur. Quid ergo aliud intellegetur nisi
-          uti ne quae pars naturae neglegatur? Quis istud, quaeso, nesciebat?
-          Primum divisit ineleganter; Hoc unum Aristo tenuit: praeter vitia
-          atque virtutes negavit rem esse ullam aut fugiendam aut expetendam. Et
-          ille ridens: Video, inquit, quid agas; In his igitur partibus duabus
-          nihil erat, quod Zeno commutare gestiret.
-
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
   - type: HeroSection
     variant: variant-a
     colors: colors-a
@@ -249,9 +106,10 @@ sections:
     height: short
     topGap: none
     bottomGap: small
-    alignHoriz: left
-    alignVert: bottom
-    badge: New Collaboration
+    contentAlignVert: bottom
+    textAlign: left
+    badge:
+      label: New Website
     title: The quick, brown fox jumps over **a lazy dog**
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -267,7 +125,7 @@ sections:
         style: secondary
     feature:
       type: ImageBlock
-      url: /images/fishing.jpg
+      url: /images/hero.png
       altText: Image alt text
       caption: Image caption
   - type: TestimonialsSection
@@ -287,13 +145,13 @@ sections:
           altText: Photo of Isabelle Parks
         logo:
           type: ImageBlock
-          url: /images/the-cook-logo.svg
-          altText: The Cook logo
+          url: /images/the-logo.svg
+          altText: The logo
   - type: QuoteSection
     colors: colors-c
     width: wide
     height: short
-    alignHoriz: left
+    textAlign: left
     quote: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
