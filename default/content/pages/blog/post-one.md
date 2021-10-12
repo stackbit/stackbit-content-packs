@@ -2,16 +2,18 @@
 title: Post Title One
 layout: PostLayout
 date: '2021-06-28'
+author: content/data/team/dianne-ameter.json
 excerpt: |-
   Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend.
 thumbImage:
   type: ImageBlock
-  url: "/images/post-1.jpeg"
-  altText: "Post Image"
+  url: '/images/post-1.jpeg'
+  altText: 'Post Image'
 bottomSections:
   - type: CtaSection
     variant: variant-b
     colors: colors-e
+    bottomGap: none
     width: wide
     height: short
     textAlign: left
@@ -21,7 +23,7 @@ bottomSections:
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: primary
 ---
 

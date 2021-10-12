@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: AdvancedLayout
+layout: PageLayout
 sections:
   - type: HeroSection
     elementId: homepage-hero-1
@@ -16,7 +16,7 @@ sections:
     textAlign: left
     badge:
       label: New Website
-    title: "This Is A Big Hero Headline"
+    title: This Is A Big Hero Headline
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
     actions:
@@ -31,7 +31,7 @@ sections:
         style: secondary
     feature:
       type: ImageBlock
-      url: "/images/hero.png"
+      url: '/images/hero.png'
       altText: Image alt text
       caption: Image caption
   - type: FeaturedPostsSection
@@ -84,7 +84,7 @@ sections:
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: primary
   - type: TextSection
     colors: colors-f
@@ -115,12 +115,12 @@ sections:
       We will notify you every time a shipment is heading to your neighborhood, and you could immediatly let us know if you want in or not.
     feature:
       type: ImageBlock
-      url: "/images/contact.png"
+      url: '/images/contact.png'
       altText: Fisherman holding lobster
     form:
       type: FormBlock
       idAttr: contact-form
-      destination: noreply@stackbit.com
+      destination: ''
       action: /.netlify/functions/submission_created
       fields:
         - type: TextFormControl

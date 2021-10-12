@@ -2,16 +2,18 @@
 title: Post Title Two
 layout: PostLayout
 date: '2021-07-01'
+author: content/data/team/hugh-saturation.json
 excerpt: |-
   Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh.
 thumbImage:
   type: ImageBlock
-  url: "/images/post-3.jpeg"
-  altText: "Post Image"
+  url: '/images/post-3.jpeg'
+  altText: 'Post Image'
 bottomSections:
   - type: CtaSection
     variant: variant-b
     colors: colors-e
+    bottomGap: none
     width: wide
     height: short
     textAlign: left
@@ -21,7 +23,7 @@ bottomSections:
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: primary
 ---
 
