@@ -1,0 +1,92 @@
+{
+    "model": "PageLayout",
+    "presets": [{
+            "label": "Landing",
+            "thumbnail": "images/placeholder.png"
+        }, {
+            "label": "Contact",
+            "thumbnail": "images/placeholder.png",
+            "data": {
+                "title": "Contact us",
+                "sections": [{
+                    "type": "ContactSection",
+                    "title": "Contact us",
+                    "text": "Fill out the form below and we will get in touch within 1 business day. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+                    "variant": "variant-a",
+                    "topGap": "none",
+                    "bottomGap": "none",
+                    "contentAlignVert": "top",
+                    "feature": {
+                        "type": "FormBlock",
+                        "action": "/.netlify/functions/submission_created",
+                        "idAttr": "contact-form",
+                        "submitLabel": "Contact",
+                        "fields": [{
+                                "type": "TextFormControl",
+                                "label": "Name",
+                                "placeholder": "Your name",
+                                "width": "1/2"
+                            },
+                            {
+                                "type": "TextFormControl",
+                                "label": "Last name",
+                                "placeholder": "Your last name",
+                                "width": "1/2"
+                            },
+                            {
+                                "type": "EmailFormControl",
+                                "label": "Email",
+                                "placeholder": "Your email",
+                                "width": "full"
+                            },
+                            {
+                                "type": "CheckboxFormControl",
+                                "label": "Sign me up to receive updates",
+                                "width": "full"
+                            }
+                        ]
+                    }
+                }]
+            }
+        },
+        {
+            "label": "About",
+            "thumbnail": "images/placeholder.png",
+            "data": {
+                "title": "About us",
+                "sections": [{
+                        "type": "HeroSection",
+                        "title": "About Us",
+                        "subtitle": "Who We Are",
+                        "topGap": "none",
+                        "bottomGap": "none",
+                        "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.",
+                        "feature": {
+                            "type": "ImageBlock",
+                            "url": "/images/about.jpg",
+                            "altText": "About us"
+                        }
+                    },
+                    {
+                        "type": "CtaSection",
+                        "title": "Careers",
+                        "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+                        "topGap": "none",
+                        "bottomGap": "none",
+                        "contentAlignVert": "top",
+                        "heigth": "short",
+                        "variant": "variant-a",
+                        "colors": "colors-c",
+                        "badge": "",
+                        "actions": [{
+                            "type": "Button",
+                            "label": "Learn more",
+                            "url": "/",
+                            "style": "primary"
+                        }]
+                    }
+                ]
+            }
+        }
+    ]
+}

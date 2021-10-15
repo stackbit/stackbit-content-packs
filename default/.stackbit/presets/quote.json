@@ -1,0 +1,54 @@
+{
+    "model": "QuoteSection",
+    "presets": [{
+            "label": "With bg image, text left",
+            "thumbnail": "images/quote-image-bottom.png",
+            "data": {
+                "colors": "colors-c",
+                "contentAlignHoriz": "left",
+                "contentAlignVert": "bottom",
+                "textAlign": "left",
+                "backgroundImage": {
+                    "url": "/images/post-1.jpeg",
+                    "altText": "Product Marketing Manager Quote"
+                }
+            }
+        },
+        {
+            "label": "With bg image, text rigth",
+            "thumbnail": "images/quote-image-top.png",
+            "data": {
+                "colors": "colors-c",
+                "contentAlignHoriz": "right",
+                "contentAlignVert": "top",
+                "textAlign": "right",
+                "backgroundImage": {
+                    "url": "/images/post-1.jpeg",
+                    "altText": "Product Marketing Manager Quote"
+                }
+            }
+        },
+        {
+            "label": "Without bg imagem text left",
+            "thumbnail": "images/quote-dark-bottom.png",
+            "data": {
+                "colors": "colors-c",
+                "contentAlignHoriz": "left",
+                "contentAlignVert": "bottom",
+                "textAlign": "left",
+                "backgroundImage": {}
+            }
+        },
+        {
+            "label": "Without bg imagem text right",
+            "thumbnail": "images/quote-dark-top.png",
+            "data": {
+                "colors": "colors-c",
+                "contentAlignHoriz": "right",
+                "contentAlignVert": "top",
+                "textAlign": "right",
+                "backgroundImage": {}
+            }
+        }
+    ]
+}

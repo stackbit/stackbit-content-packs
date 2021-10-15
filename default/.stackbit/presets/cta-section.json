@@ -1,0 +1,22 @@
+{
+    "model": "CtaSection",
+    "presets": [{
+            "label": "Button bottom",
+            "thumbnail": "images/cta-bottom.png",
+            "data": {
+                "variant": "variant-a",
+                "colors": "colors-c",
+                "badge": ""
+            }
+        },
+        {
+            "label": "Button right",
+            "thumbnail": "images/cta-right.png",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-c",
+                "badge": ""
+            }
+        }
+    ]
+}

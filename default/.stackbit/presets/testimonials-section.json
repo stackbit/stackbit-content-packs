@@ -1,0 +1,48 @@
+{
+    "model": "TestimonialsSection",
+    "presets": [{
+            "label": "Light image bottom, with title",
+            "thumbnail": "images/testimonials-light1.png",
+            "data": {
+                "variant": "variant-a",
+                "colors": "colors-a",
+                "title": "Testimonials",
+                "subtitle": "What our customers say about us",
+                "badge":""
+            }
+        },
+        {
+            "label": "Light image left, with title",
+            "thumbnail": "images/testimonials-light2.png",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-a",
+                "title": "Testimonials",
+                "subtitle": "What our customers say about us",
+                "badge":""
+            }
+        },
+        {
+            "label": "Dark image bottom, without title",
+            "thumbnail": "images/testimonials-dark1.png",
+            "data": {
+                "variant": "variant-a",
+                "colors": "colors-c",
+                "title": "",
+                "subtitle": "",
+                "badge":""
+            }
+        },
+        {
+            "label": "Dark image left, without title",
+            "thumbnail": "images/testimonials-dark2.png",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-c",
+                "title": "",
+                "subtitle": "",
+                "badge":""
+            }
+        }
+    ]
+}
