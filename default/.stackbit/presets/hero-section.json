@@ -4,31 +4,28 @@
             "label": "Image right",
             "thumbnail": "images/hero-right.png",
             "data": {
-                "variant": "variant-a"
+                "featurePosition": "right"
             }
         },
         {
             "label": "Image left",
             "thumbnail": "images/hero-left.png",
             "data": {
-                "variant": "variant-b",
-                "badge": ""
+                "featurePosition": "left"
             }
         },
         {
             "label": "Image top",
             "thumbnail": "images/hero-top.png",
             "data": {
-                "variant": "variant-c",
-                "badge": ""
+                "featurePosition": "top"
             }
         },
         {
             "label": "Image bottom",
             "thumbnail": "images/hero-bottom.png",
             "data": {
-                "variant": "variant-d",
-                "badge": ""
+                "featurePosition": "bottom"
             }
         }
     ]

@@ -7,7 +7,6 @@
                 "colors": "colors-c",
                 "contentAlignHoriz": "left",
                 "contentAlignVert": "bottom",
-                "textAlign": "left",
                 "backgroundImage": {
                     "url": "/images/post-1.jpeg",
                     "altText": "Product Marketing Manager Quote"
@@ -21,7 +20,6 @@
                 "colors": "colors-c",
                 "contentAlignHoriz": "right",
                 "contentAlignVert": "top",
-                "textAlign": "right",
                 "backgroundImage": {
                     "url": "/images/post-1.jpeg",
                     "altText": "Product Marketing Manager Quote"
@@ -35,7 +33,6 @@
                 "colors": "colors-c",
                 "contentAlignHoriz": "left",
                 "contentAlignVert": "bottom",
-                "textAlign": "left",
                 "backgroundImage": {}
             }
         },
@@ -46,7 +43,6 @@
                 "colors": "colors-c",
                 "contentAlignHoriz": "right",
                 "contentAlignVert": "top",
-                "textAlign": "right",
                 "backgroundImage": {}
             }
         }

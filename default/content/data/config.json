@@ -1,6 +1,5 @@
 {
   "type": "Config",
-  "backgroundColor": "bg-white",
   "navBar": {
     "desktopNavVariant": "variant-a",
     "mobileNavVariant": "variant-a",
@@ -55,7 +54,6 @@
     "colors": "colors-f",
     "width": "wide",
     "title": "Starter",
-    "isTitleVisible": true,
     "logo": {
       "type": "ImageBlock",
       "url": "/images/logo.svg",

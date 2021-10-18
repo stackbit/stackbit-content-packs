@@ -8,8 +8,7 @@
                 "text": "We look forward to hearing from you.",
                 "variant": "variant-a",
                 "colors": "colors-c",
-                "badge": "",
-                "idAttr": "contact-form",
+                "elementId": "contact-form",
                 "action": "/.netlify/functions/submission_created"
             }
         },
@@ -21,8 +20,7 @@
                 "text": "We look forward to hearing from you.",
                 "variant": "variant-b",
                 "colors": "colors-c",
-                "badge": "",
-                "idAttr": "contact-form",
+                "elementId": "contact-form",
                 "action": "/.netlify/functions/submission_created"
             }
         },
@@ -34,9 +32,8 @@
                 "text": "We look forward to hearing from you.",
                 "variant": "variant-a",
                 "colors": "colors-c",
-                "badge": "",
                 "feature": "",
-                "idAttr": "contact-form",
+                "elementId": "contact-form",
                 "action": "/.netlify/functions/submission_created"
             }
         },
@@ -48,8 +45,7 @@
                 "text": "We look forward to hearing from you.",
                 "variant": "variant-a",
                 "colors": "colors-a",
-                "badge": "",
-                "idAttr": "contact-form",
+                "elementId": "contact-form",
                 "action": "/.netlify/functions/submission_created"
             }
         },
@@ -61,8 +57,7 @@
                 "text": "We look forward to hearing from you.",
                 "variant": "variant-b",
                 "colors": "colors-a",
-                "badge": "",
-                "idAttr": "contact-form",
+                "elementId": "contact-form",
                 "action": "/.netlify/functions/submission_created"
             }
         },
@@ -74,9 +69,8 @@
                 "text": "We look forward to hearing from you.",
                 "variant": "variant-a",
                 "colors": "colors-a",
-                "badge": "",
                 "feature": "",
-                "idAttr": "contact-form",
+                "elementId": "contact-form",
                 "action": "/.netlify/functions/submission_created"
             }
         }

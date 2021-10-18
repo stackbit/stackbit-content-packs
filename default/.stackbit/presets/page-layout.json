@@ -19,7 +19,7 @@
                     "feature": {
                         "type": "FormBlock",
                         "action": "/.netlify/functions/submission_created",
-                        "idAttr": "contact-form",
+                        "elementId": "contact-form",
                         "submitLabel": "Contact",
                         "fields": [{
                                 "type": "TextFormControl",
@@ -75,9 +75,8 @@
                         "bottomGap": "none",
                         "contentAlignVert": "top",
                         "heigth": "short",
-                        "variant": "variant-a",
+                        "actionsPosition": "bottom",
                         "colors": "colors-c",
-                        "badge": "",
                         "actions": [{
                             "type": "Button",
                             "label": "Learn more",

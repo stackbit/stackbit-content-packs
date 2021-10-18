@@ -5,9 +5,7 @@
             "thumbnail": "images/people-4-col-light.png",
             "data": {
                 "variant": "variant-a",
-                "badge": "",
-                "colors": "colors-a",
-                "textAlign": "center"
+                "colors": "colors-a"
             }
         },
         {
@@ -15,9 +13,7 @@
             "thumbnail": "images/people-2-col-light.png",
             "data": {
                 "variant": "variant-b",
-                "badge": "",
-                "colors": "colors-a",
-                "textAlign": "center"
+                "colors": "colors-a"
             }
         },
         {
@@ -25,9 +21,7 @@
             "thumbnail": "images/people-2-col-dark.png",
             "data": {
                 "variant": "variant-b",
-                "badge": "",
-                "colors": "colors-c",
-                "textAlign": "center"
+                "colors": "colors-c"
             }
         },
         {
@@ -35,9 +29,7 @@
             "thumbnail": "images/people-4-col-dark.png",
             "data": {
                 "variant": "variant-a",
-                "badge": "",
-                "colors": "colors-c",
-                "textAlign": "center"
+                "colors": "colors-c"
             }
         }
     ]

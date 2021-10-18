@@ -9,9 +9,15 @@ sections:
     width: wide
     contentAlignHoriz: center
     title: Blog
-    textAlign: center
     posts:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
+    styles:
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        textAlign: center
 ---

@@ -5,18 +5,16 @@ date: '2021-07-01'
 author: content/data/team/hugh-saturation.json
 excerpt: |-
   Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh.
-thumbImage:
+featuredImage:
   type: ImageBlock
   url: '/images/post-3.jpeg'
   altText: 'Post Image'
 bottomSections:
   - type: CtaSection
-    variant: variant-b
     colors: colors-e
     bottomGap: none
     width: wide
     height: short
-    textAlign: left
     title: Let's do this
     text: |-
       The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
@@ -25,6 +23,14 @@ bottomSections:
         label: Get Started
         url: 'https://www.stackbit.com/'
         style: primary
+    actionsPosition: right
+    styles:
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        textAlign: left
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.

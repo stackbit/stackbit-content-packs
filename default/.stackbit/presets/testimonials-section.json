@@ -7,8 +7,7 @@
                 "variant": "variant-a",
                 "colors": "colors-a",
                 "title": "Testimonials",
-                "subtitle": "What our customers say about us",
-                "badge":""
+                "subtitle": "What our customers say about us"
             }
         },
         {
@@ -18,8 +17,7 @@
                 "variant": "variant-b",
                 "colors": "colors-a",
                 "title": "Testimonials",
-                "subtitle": "What our customers say about us",
-                "badge":""
+                "subtitle": "What our customers say about us"
             }
         },
         {
@@ -29,8 +27,7 @@
                 "variant": "variant-a",
                 "colors": "colors-c",
                 "title": "",
-                "subtitle": "",
-                "badge":""
+                "subtitle": ""
             }
         },
         {
@@ -40,8 +37,7 @@
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "title": "",
-                "subtitle": "",
-                "badge":""
+                "subtitle": ""
             }
         }
     ]
