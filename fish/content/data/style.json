@@ -1,0 +1,13 @@
+{
+    "type": "ThemeStyle",
+    "body": "#414c58",
+    "headline": "#303941",
+    "primary": "#28aaff",
+    "secondary": "#dfe3e7",
+    "neutral": "#282f36",
+    "complementary": "#e9f6ff",
+    "complementary-alt": "#fffde2",
+    "info": "#ffa928",
+    "success": "#9bed72",
+    "warning": "#df1c2e"
+}
