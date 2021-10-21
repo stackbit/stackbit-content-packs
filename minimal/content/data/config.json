@@ -6,7 +6,7 @@
     "primaryColors": "colors-a",
     "secondaryColors": "colors-a",
     "width": "wide",
-    "title": "Starter",
+    "title": "Minimal",
     "isTitleVisible": true,
     "logo": {
       "type": "ImageBlock",
