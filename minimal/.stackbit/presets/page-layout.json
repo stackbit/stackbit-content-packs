@@ -2,10 +2,10 @@
     "model": "PageLayout",
     "presets": [{
             "label": "Landing",
-            "thumbnail": "images/placeholder.png"
+            "thumbnail": "images/page-landing.png"
         }, {
             "label": "Contact",
-            "thumbnail": "images/placeholder.png",
+            "thumbnail": "images/page-contact.png",
             "data": {
                 "title": "Contact us",
                 "sections": [{
@@ -51,7 +51,7 @@
         },
         {
             "label": "About",
-            "thumbnail": "images/placeholder.png",
+            "thumbnail": "images/page-about.png",
             "data": {
                 "title": "About us",
                 "sections": [{
