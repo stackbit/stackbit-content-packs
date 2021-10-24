@@ -5,13 +5,7 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-f
-    width: wide
-    height: tall
-    bottomGap: none
-    topGap: none
-    contentWidth: large
-    contentAlignHoriz: center
-    contentAlignVert: middle
+    backgroundWidth: full
     title: This Is A Big Hero Headline
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
@@ -27,49 +21,60 @@ sections:
         style: secondary
     feature:
       type: ImageBlock
-      url: '/images/hero.png'
+      url: "/images/hero.png"
       altText: Image alt text
       caption: Image caption
-    featurePosition: right
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: left
       subtitle:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: left
       text:
         textAlign: left
       actions:
-        textAlign: left
+        justifyContent: start
   - type: FeaturedPostsSection
-    variant: variant-b
+    variant: variant-c
     colors: colors-c
-    width: wide
-    height: short
-    contentWidth: medium
-    contentAlignHoriz: center
-    contentAlignVert: middle
-    bottomGap: none
-    topGap: none
+    backgroundWidth: full
     title: Blog Posts
     posts:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: center
       subtitle:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: center
       actions:
-        textAlign: center
+        justifyContent: center
   - type: TestimonialsSection
-    variant: variant-b
     colors: colors-h
-    width: wide
-    height: short
-    bottomGap: none
-    topGap: none
-    contentAlignHoriz: center
+    backgroundWidth: full
     testimonials:
       - quote: |-
           “It’s great to see someone taking action while still maintaining a sustainable fish supply to home cooks.”
@@ -79,73 +84,104 @@ sections:
           type: ImageBlock
           url: /images/isabelle-parks.jpg
           altText: Isabelle Parks
+        styles:
+          self:
+            margin: ["mt-0", "mb-0"]
+            flexDirection: row
+          quote:
+            textAlign: left
+          name:
+            fontWeight: 700
+            fontStyle: normal
+            textAlign: left
+          title:
+            fontWeight: 400
+            fontStyle: normal
+            textAlign: left
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: center
       subtitle:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: center
   - type: CtaSection
     colors: colors-c
-    width: wide
-    height: short
-    contentAlignHoriz: center
-    contentWidth: medium
-    bottomGap: none
-    topGap: none
+    backgroundWidth: full
     title: Let's do this
     text: |-
       The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
     actions:
       - type: Button
         label: Get Started
-        url: 'https://www.stackbit.com/'
+        url: "https://www.stackbit.com/"
         style: primary
     actionsPosition: right
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: left
       text:
         textAlign: left
       actions:
-        textAlign: left
+        justifyContent: start
   - type: TextSection
     colors: colors-f
-    width: wide
-    height: tall
-    contentWidth: small
-    contentAlignHoriz: center
-    contentAlignVert: middle
-    bottomGap: none
-    topGap: none
+    backgroundWidth: full
     title: The Section Title
     subtitle: The section subtitle
     text: |-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: center
       subtitle:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: center
       text:
         textAlign: center
   - type: ContactSection
-    variant: variant-b
     colors: colors-h
-    width: wide
-    height: tall
+    backgroundWidth: full
     title: Join our club
-    bottomGap: none
-    topGap: none
     text: |-
       We will notify you every time a shipment is heading to your neighborhood, and you could immediatly let us know if you want in or not.
     feature:
       type: ImageBlock
-      url: '/images/contact.png'
+      url: "/images/contact.png"
       altText: Fisherman holding lobster
     form:
       type: FormBlock
       elementId: contact-form
-      destination: ''
+      destination: ""
       action: /.netlify/functions/submission_created
       fields:
         - type: TextFormControl
@@ -172,7 +208,17 @@ sections:
           width: full
       submitLabel: Send Message
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: left
       text:
         textAlign: left

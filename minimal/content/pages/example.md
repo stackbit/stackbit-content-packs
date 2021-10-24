@@ -3,12 +3,8 @@ title: Example Page
 layout: PageLayout
 sections:
   - type: ContactSection
-    variant: variant-b
     colors: colors-e
-    width: wide
-    height: short
-    topGap: large
-    bottomGap: none
+    backgroundWidth: full
     title: Join our club
     text: >-
       We will notify you every time a shipment is heading to your neighborhood,
@@ -45,14 +41,23 @@ sections:
           width: full
       submitLabel: Send Message
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: left
       text:
         textAlign: left
   - type: TextSection
     colors: colors-a
-    width: wide
-    height: short
+    backgroundWidth: full
     title: The Section Title
     subtitle: The section subtitle
     text: >-
@@ -63,87 +68,120 @@ sections:
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: left
       subtitle:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: left
       text:
         textAlign: left
   - type: CtaSection
     colors: colors-h
-    width: wide
-    height: short
-    topGap: none
-    bottomGap: none
+    backgroundWidth: full
     title: Let's do this
     text: >-
       The Stackbit theme is flexible and scalable to every need. It can manage
       any layout and any screen.
     actions:
       - type: Button
-        url: '#'
+        url: "#"
         label: Get Started
         style: primary
-    actionsPosition: bottom
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: center
       text:
         textAlign: center
       actions:
-        textAlign: center
+        justifyContent: center
   - type: FeaturedPeopleSection
     variant: variant-c
     colors: colors-a
-    width: full
+    backgroundWidth: full
     title: Our Team
-    topGap: small
-    bottomGap: large
     people:
       - content/data/team/dianne-ameter.json
       - content/data/team/desmond-eagle.json
       - content/data/team/hilary-ouse.json
       - content/data/team/hugh-saturation.json
     styles:
+      self:
+        height: auto
+        width: narrow
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
       title:
-        textAlign: left
+        fontWeight: 700
+        fontStyle: normal
+        textAlign: center
       subtitle:
-        textAlign: left
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
       actions:
-        textAlign: left
+        justifyContent: center
   - type: FeaturedPostsSection
-    variant: variant-a
+    variant: variant-c
     colors: colors-e
-    width: wide
+    backgroundWidth: full
     posts:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: center
       subtitle:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: center
       actions:
-        textAlign: center
+        justifyContent: center
   - type: HeroSection
     colors: colors-a
-    width: wide
-    height: short
-    topGap: none
-    bottomGap: small
-    contentAlignVert: bottom
+    backgroundWidth: full
     title: The quick, brown fox jumps over a lazy dog
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
     actions:
       - type: Button
-        url: '#'
+        url: "#"
         label: Apply Now
         style: primary
       - type: Button
-        url: '#'
+        url: "#"
         label: Learn more
         style: secondary
     feature:
@@ -151,21 +189,30 @@ sections:
       url: /images/hero.png
       altText: Image alt text
       caption: Image caption
-    featurePosition: right
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
+        flexDirection: row-reverse
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: left
       subtitle:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: left
       text:
         textAlign: left
       actions:
-        textAlign: left
+        justifyContent: start
   - type: TestimonialsSection
-    variant: variant-a
     colors: colors-e
-    width: wide
-    height: short
+    backgroundWidth: full
     testimonials:
       - quote: >-
           “It’s great to see someone taking action while still maintaining a
@@ -176,19 +223,39 @@ sections:
           type: ImageBlock
           url: /images/isabelle-parks.jpg
           altText: Photo of Isabelle Parks
-        logo:
-          type: ImageBlock
-          url: /images/the-logo.svg
-          altText: The logo
+        styles:
+          self:
+            margin: ["mt-0", "mb-0"]
+            flexDirection: col
+          quote:
+            textAlign: center
+          name:
+            fontWeight: 700
+            fontStyle: normal
+            textAlign: center
+          title:
+            fontWeight: 400
+            fontStyle: normal
+            textAlign: center
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
       title:
+        fontWeight: 700
+        fontStyle: normal
         textAlign: center
       subtitle:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: center
   - type: QuoteSection
     colors: colors-c
-    width: wide
-    height: short
+    backgroundWidth: full
     quote: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
@@ -202,13 +269,26 @@ sections:
       type: ImageBlock
       url: /images/water.jpg
       altText: Water
-      caption: ''
-      opacity: 40
+      caption: ""
+      styles:
+        self:
+          opacity: 40
     styles:
+      self:
+        height: auto
+        width: wide
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-10", "pb-10"]
+        alignItems: center
+        justifyContent: center
       quote:
         textAlign: left
       name:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: left
       title:
+        fontWeight: 400
+        fontStyle: normal
         textAlign: left
 ---

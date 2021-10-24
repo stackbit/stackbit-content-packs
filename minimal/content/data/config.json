@@ -1,11 +1,10 @@
 {
   "type": "Config",
-  "navBar": {
-    "desktopNavVariant": "variant-a",
-    "mobileNavVariant": "variant-a",
+  "header": {
+    "headerVariant": "variant-a",
     "primaryColors": "colors-a",
     "secondaryColors": "colors-a",
-    "width": "wide",
+    "backgroundWidth": "full",
     "title": "Minimal",
     "isTitleVisible": true,
     "logo": {
@@ -48,17 +47,23 @@
         "altText": "Sign up",
         "style": "secondary"
       }
-    ]
+    ],
+    "styles": {
+      "self": {
+        "width": "narrow",
+        "padding": ["pt-5", "pb-5"]
+      }
+    }
   },
   "footer": {
     "colors": "colors-f",
-    "width": "wide",
-    "title": "Starter",
+    "backgroundWidth": "full",
     "logo": {
       "type": "ImageBlock",
       "url": "/images/logo.svg",
       "altText": "Logo"
     },
+    "title": "Minimal",
     "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.  \nEaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
     "contacts": {
       "phoneNumber": "850-123-5021",
@@ -117,6 +122,12 @@
         "label": "Terms & Conditions",
         "url": "/"
       }
-    ]
+    ],
+    "styles": {
+      "self": {
+        "width": "narrow",
+        "padding": ["pt-16", "pb-16"]
+      }
+    }
   }
 }
