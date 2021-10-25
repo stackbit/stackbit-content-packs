@@ -33,16 +33,23 @@ sections:
         alignItems: center
         justifyContent: center
         flexDirection: row
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
       title:
         fontWeight: 700
         fontStyle: normal
         textAlign: left
+        margin: ["mt-0", "mb-4"]
       subtitle:
         fontWeight: 400
         fontStyle: normal
         textAlign: left
+        margin: ["mt-0", "mb-6"]
       text:
         textAlign: left
+        margin: ["mt-0", "mb-8"]
       actions:
         justifyContent: flex-start
   - type: FeaturedPostsSection
