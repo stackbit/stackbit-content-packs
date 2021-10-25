@@ -26,7 +26,7 @@ bottomSections:
         height: auto
         width: wide
         margin: ["mt-0", "mb-0"]
-        padding: ["pt-10", "pb-10"]
+        padding: ["pt-12", "pb-12"]
         alignItems: center
         justifyContent: center
         flexDirection: row
@@ -37,7 +37,7 @@ bottomSections:
       text:
         textAlign: left
       actions:
-        justifyContent: start
+        justifyContent: flex-start
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.

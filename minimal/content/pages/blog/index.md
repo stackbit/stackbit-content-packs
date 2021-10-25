@@ -16,7 +16,7 @@ sections:
         height: auto
         width: wide
         margin: ["mt-0", "mb-0"]
-        padding: ["pt-10", "pb-10"]
+        padding: ["pt-12", "pb-12"]
         alignItems: center
         justifyContent: center
       title:

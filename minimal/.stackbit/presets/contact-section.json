@@ -1,15 +1,34 @@
 {
     "model": "ContactSection",
-    "presets": [{
+    "presets": [
+        {
             "label": "Contact us dark - With image (right)",
             "thumbnail": "images/contact-dark-image-r.png",
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
-                "variant": "variant-a",
                 "colors": "colors-c",
                 "elementId": "contact-form",
-                "action": "/.netlify/functions/submission_created"
+                "action": "/.netlify/functions/submission_created",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
             }
         },
         {
@@ -18,10 +37,28 @@
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
-                "variant": "variant-b",
                 "colors": "colors-c",
                 "elementId": "contact-form",
-                "action": "/.netlify/functions/submission_created"
+                "action": "/.netlify/functions/submission_created",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row-reverse"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
             }
         },
         {
@@ -30,11 +67,29 @@
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
-                "variant": "variant-a",
                 "colors": "colors-c",
-                "feature": "",
+                "feature": null,
                 "elementId": "contact-form",
-                "action": "/.netlify/functions/submission_created"
+                "action": "/.netlify/functions/submission_created",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
             }
         },
         {
@@ -43,22 +98,58 @@
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
-                "variant": "variant-a",
                 "colors": "colors-a",
                 "elementId": "contact-form",
-                "action": "/.netlify/functions/submission_created"
+                "action": "/.netlify/functions/submission_created",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
             }
         },
         {
             "label": "Contact us light - With image (left)",
-            "thumbnail": "images/contact-light-image-r.png",
+            "thumbnail": "images/contact-light-image-l.png",
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
-                "variant": "variant-b",
                 "colors": "colors-a",
                 "elementId": "contact-form",
-                "action": "/.netlify/functions/submission_created"
+                "action": "/.netlify/functions/submission_created",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row-reverse"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
             }
         },
         {
@@ -67,11 +158,29 @@
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
-                "variant": "variant-a",
                 "colors": "colors-a",
-                "feature": "",
+                "feature": null,
                 "elementId": "contact-form",
-                "action": "/.netlify/functions/submission_created"
+                "action": "/.netlify/functions/submission_created",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
             }
         }
     ]
