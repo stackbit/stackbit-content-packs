@@ -1,0 +1,36 @@
+{
+    "model": "FeaturedPeopleSection",
+    "presets": [{
+            "label": "4 columns light",
+            "thumbnail": "images/placeholder.png",
+            "data": {
+                "variant": "variant-a",
+                "colors": "colors-a"
+            }
+        },
+        {
+            "label": "2 columns light ",
+            "thumbnail": "images/placeholder.png",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-a"
+            }
+        },
+        {
+            "label": "2 columns dark",
+            "thumbnail": "images/placeholder.png",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-c"
+            }
+        },
+        {
+            "label": "4 columns dark",
+            "thumbnail": "images/placeholder.png",
+            "data": {
+                "variant": "variant-a",
+                "colors": "colors-c"
+            }
+        }
+    ]
+}

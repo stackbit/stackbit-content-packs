@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@stackbit/components/styles/default.css';
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+@layer components {
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-festive;
+    },
+    sb-component-button {
+      @apply border-4;
+  	}
+}
+
+
+
+
