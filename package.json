@@ -1,11 +1,14 @@
 {
-  "name": "stackbit-content-packs",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stackbit/stackbit-content-packs.git"
-  },
-  "author": "",
-  "homepage": "https://github.com/stackbit/stackbit-content-packs#readme",
-  "description": ""
+    "name": "stackbit-content-packs",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stackbit/stackbit-content-packs.git"
+    },
+    "author": "",
+    "homepage": "https://github.com/stackbit/stackbit-content-packs#readme",
+    "description": "",
+    "devDependencies": {
+        "prettier": "^2.4.1"
+    }
 }
