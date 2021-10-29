@@ -6,5 +6,6 @@
     "secondary": "#ffffff",
     "neutral": "#000000",
     "complementary": "#e9f6ff",
-    "complementary-alt": "#fffde2"
+    "complementaryAlt": "#fffde2",
+    "fontFestive": "'Rakkas', cursive"
 }
