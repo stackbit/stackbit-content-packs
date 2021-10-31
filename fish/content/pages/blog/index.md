@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Blog post page
 layout: AdvancedLayout
 sections:
   - type: HeroSection

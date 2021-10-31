@@ -1,12 +1,12 @@
 ---
-title: Blog
+title: Blog post page
 layout: PageLayout
 sections:
   - type: FeaturedPostsSection
     variant: variant-a
     colors: colors-e
     backgroundWidth: full
-    title: Blog
+    title: Latest blog posts
     posts:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
