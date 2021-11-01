@@ -20,11 +20,11 @@ sections:
         alignItems: center
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
       actions:
