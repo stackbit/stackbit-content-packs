@@ -38,12 +38,12 @@ sections:
         borderStyle: none
         borderColor: border-neutral
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: left
         margin: ["mt-0", "mb-4"]
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: left
         margin: ["mt-0", "mb-6"]
@@ -70,11 +70,11 @@ sections:
         alignItems: center
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
       actions:
@@ -98,11 +98,11 @@ sections:
           quote:
             textAlign: left
           name:
-            fontWeight: 700
+            fontWeight: '700'
             fontStyle: normal
             textAlign: left
           title:
-            fontWeight: 400
+            fontWeight: '400'
             fontStyle: normal
             textAlign: left
     styles:
@@ -114,11 +114,11 @@ sections:
         alignItems: center
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
   - type: CtaSection
@@ -143,7 +143,7 @@ sections:
         justifyContent: center
         flexDirection: row
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: left
       text:
@@ -166,11 +166,11 @@ sections:
         alignItems: center
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
       text:
@@ -224,7 +224,7 @@ sections:
         justifyContent: center
         flexDirection: row
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: left
       text:
