@@ -1,0 +1,11 @@
+{
+    "type": "ThemeStyle",
+    "body": "#000000",
+    "headlines": "#ff3064",
+    "primary": "#ff3064",
+    "secondary": "#ffffff",
+    "neutral": "#000000",
+    "complementary": "#e9f6ff",
+    "complementaryAlt": "#fffde2",
+    "fontFestive": "'Rakkas', cursive"
+}

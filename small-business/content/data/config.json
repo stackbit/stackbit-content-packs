@@ -1,0 +1,131 @@
+{
+    "type": "Config",
+    "header": {
+        "headerVariant": "variant-d",
+        "primaryColors": "colors-b",
+        "secondaryColors": "colors-i",
+        "backgroundWidth": "full",
+        "title": "Small Business",
+        "isTitleVisible": false,
+        "logo": {
+            "type": "ImageBlock",
+            "url": "/images/Sakanaya logo.svg",
+            "altText": "Logo"
+        },
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Home",
+                "url": "/",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Our offers",
+                "url": "/blog",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "About us",
+                "url": "/about",
+                "altText": ""
+            }
+        ],
+        "secondaryLinks": [
+            {
+                "type": "Button",
+                "label": "Join us",
+                "url": "/",
+                "altText": "Join us",
+                "style": "secondary"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-5",
+                    "pb-5"
+                ]
+            }
+        }
+    },
+    "footer": {
+        "colors": "colors-f",
+        "backgroundWidth": "full",
+        "logo": {
+            "type": "ImageBlock",
+            "url": "/images/Sakanaya logo.svg",
+            "altText": "Logo"
+        },
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.  \nEaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "contacts": {
+            "phoneNumber": "850-123-5021",
+            "phoneAltText": "Our phone",
+            "email": "info@lorem.mail",
+            "emailAltText": "Our email",
+            "address": "312 Lovely Street, NY",
+            "addressAltText": "Our address"
+        },
+        "copyrightText": "Powered by Stackbit",
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Home",
+                "url": "/",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Blog",
+                "url": "/blog",
+                "altText": ""
+            }
+        ],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "altText": "Twitter",
+                "url": "/",
+                "showIcon": true,
+                "icon": "twitter"
+            },
+            {
+                "type": "Social",
+                "altText": "Instagram",
+                "url": "/",
+                "showIcon": true,
+                "icon": "instagram"
+            },
+            {
+                "type": "Social",
+                "altText": "Facebook",
+                "url": "/",
+                "showIcon": true,
+                "icon": "facebook"
+            }
+        ],
+        "legalLinks": [
+            {
+                "type": "Link",
+                "label": "Privacy Policy",
+                "url": "/"
+            },
+            {
+                "type": "Link",
+                "label": "Terms & Conditions",
+                "url": "/"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-16",
+                    "pb-16"
+                ]
+            }
+        }
+    }
+}
