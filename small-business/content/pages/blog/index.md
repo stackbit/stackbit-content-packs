@@ -32,6 +32,7 @@ sections:
         fontWeight: 400
         fontStyle: normal
         textAlign: left
+        margin: ["mt-0", "mb-12"]
     type: QuoteSection
   - type: FeaturedPostsSection
     variant: variant-a
@@ -58,6 +59,7 @@ sections:
         fontWeight: 700
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-12"]
       subtitle:
         fontWeight: 400
         fontStyle: normal
