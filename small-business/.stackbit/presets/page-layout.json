@@ -2,7 +2,7 @@
     "model": "PageLayout",
     "presets": [{
             "label": "Landing",
-            "thumbnail": "images/page-landing.png",
+            "thumbnail": "images/page-landing.jpg",
             "data":{
                 "sections":[
                     {
@@ -14,13 +14,47 @@
                             "type": "ImageBlock",
                             "url": "/images/hero-image.png",
                             "altText": "Hero section image"
+                        },
+                        "backgroundImage":{
+                            "altText":"",
+                            "url":"",
+                            "caption":""
+                        },
+                        "styles": {
+                            "self": {
+                                "height": "auto",
+                                "width": "wide",
+                                "margin": ["mt-0", "mb-0"],
+                                "padding": ["pt-12", "pb-12"],
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "flexDirection": "row"
+                            },
+                            "title": {
+                                "fontWeight": 700,
+                                "fontStyle": "normal",
+                                "textAlign": "left",
+                                "margin": ["mb-12"]
+                            },
+                            "subtitle": {
+                                "fontWeight": 400,
+                                "fontStyle": "normal",
+                                "textAlign": "left",
+                                "margin": ["mb-8", "mt-8"]
+                            },
+                            "text": {
+                                "textAlign": "left"
+                            },
+                            "actions": {
+                                "justifyContent": "flex-start"
+                            }
                         }
                     }
                 ]
             }
         }, {
             "label": "Contact",
-            "thumbnail": "images/page-contact.png",
+            "thumbnail": "images/page-contact.jpg",
             "data": {
                 "title": "Contact us",
                 "sections": [
@@ -72,7 +106,8 @@
                             "title": {
                                 "fontWeight": 700,
                                 "fontStyle": "normal",
-                                "textAlign": "left"
+                                "textAlign": "left",
+                                "margin": ["mb-8"]
                             },
                             "subtitle": {
                                 "fontWeight": 400,
@@ -92,7 +127,7 @@
         },
         {
             "label": "About",
-            "thumbnail": "images/page-about.png",
+            "thumbnail": "images/page-about.jpg",
             "data": {
                 "title": "About us",
                 "sections": [
@@ -119,7 +154,8 @@
                             "title": {
                                 "fontWeight": 700,
                                 "fontStyle": "normal",
-                                "textAlign": "left"
+                                "textAlign": "left",
+                                "margin": ["mb-8"]
                             },
                             "subtitle": {
                                 "fontWeight": 400,

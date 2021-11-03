@@ -1,12 +1,14 @@
 {
     "model": "QuoteSection",
     "presets": [{
-            "label": "With bg image, text left",
-            "thumbnail": "images/placeholder.png",
+            "label": "White background",
+            "thumbnail": "images/quote-bg-image.jpg",
+            "backgroundWith": "full",
             "data": {
-                "colors": "colors-c",
+                "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
+                "colors": "colors-a",
                 "backgroundImage": {
-                    "url": "/images/post-1.jpeg",
+                    "url": "/images/BG.png",
                     "altText": "Product Marketing Manager Quote"
                 },
                 "styles": {
@@ -14,8 +16,8 @@
                         "height": "auto",
                         "width": "wide",
                         "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-36", "pb-12"],
-                        "alignItems": "flex-start",
+                        "padding": ["pt-36", "pb-36"],
+                        "alignItems": "center",
                         "justifyContent": "center"
                     },
                     "quote": {
@@ -35,56 +37,23 @@
             }
         },
         {
-            "label": "With bg image, text rigth",
-            "thumbnail": "images/placeholder.png",
+            "label": "Font color",
+            "thumbnail": "images/quote-font-color.jpg",
+            "backgroundWith": "full",
             "data": {
-                "colors": "colors-c",
-                "contentAlignHoriz": "right",
-                "contentAlignVert": "top",
+                "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
+                "colors": "colors-b",
                 "backgroundImage": {
-                    "url": "/images/post-1.jpeg",
-                    "altText": "Product Marketing Manager Quote"
+                    "url": "",
+                    "altText": ""
                 },
                 "styles": {
                     "self": {
                         "height": "auto",
                         "width": "wide",
                         "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-36"],
-                        "alignItems": "flex-end",
-                        "justifyContent": "center"
-                    },
-                    "quote": {
-                        "textAlign": "right"
-                    },
-                    "name": {
-                        "fontWeight": 400,
-                        "fontStyle": "normal",
-                        "textAlign": "right"
-                    },
-                    "title": {
-                        "fontWeight": 400,
-                        "fontStyle": "normal",
-                        "textAlign": "right"
-                    }
-                }
-            }
-        },
-        {
-            "label": "Without bg image text left",
-            "thumbnail": "images/placeholder.png",
-            "data": {
-                "colors": "colors-c",
-                "contentAlignHoriz": "left",
-                "contentAlignVert": "bottom",
-                "backgroundImage": null,
-                "styles": {
-                    "self": {
-                        "height": "auto",
-                        "width": "wide",
-                        "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-36", "pb-12"],
-                        "alignItems": "flex-start",
+                        "padding": ["pt-36", "pb-36"],
+                        "alignItems": "center",
                         "justifyContent": "center"
                     },
                     "quote": {
@@ -104,34 +73,73 @@
             }
         },
         {
-            "label": "Without bg imagem text right",
-            "thumbnail": "images/placeholder.png",
+            "label": "Dark background",
+            "thumbnail": "images/quote-dark-bg.jpg",
+            "backgroundWith": "full",
             "data": {
+                "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
                 "colors": "colors-c",
-                "contentAlignHoriz": "right",
-                "contentAlignVert": "top",
-                "backgroundImage": null,
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
                 "styles": {
                     "self": {
                         "height": "auto",
                         "width": "wide",
                         "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-36"],
-                        "alignItems": "flex-end",
+                        "padding": ["pt-36", "pb-36"],
+                        "alignItems": "center",
                         "justifyContent": "center"
                     },
                     "quote": {
-                        "textAlign": "right"
+                        "textAlign": "left"
                     },
                     "name": {
                         "fontWeight": 400,
                         "fontStyle": "normal",
-                        "textAlign": "right"
+                        "textAlign": "left"
                     },
                     "title": {
                         "fontWeight": 400,
                         "fontStyle": "normal",
-                        "textAlign": "right"
+                        "textAlign": "left"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Color background",
+            "thumbnail": "images/quote-bg-color.jpg",
+            "backgroundWith": "full",
+            "data": {
+                "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
+                "colors": "colors-e",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-36", "pb-36"],
+                        "alignItems": "center",
+                        "justifyContent": "center"
+                    },
+                    "quote": {
+                        "textAlign": "left"
+                    },
+                    "name": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "title": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
                     }
                 }
             }

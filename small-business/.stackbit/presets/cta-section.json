@@ -1,10 +1,15 @@
 {
     "model": "CtaSection",
     "presets": [{
-            "label": "Button bottom",
-            "thumbnail": "images/placeholder.png",
+            "label": "Button dark",
+            "thumbnail": "images/cta-dark.jpg",
+            "backgroundWidth": "full",
             "data": {
                 "colors": "colors-c",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
                 "styles": {
                     "self": {
                         "height": "auto",
@@ -30,10 +35,15 @@
             }
         },
         {
-            "label": "Button right",
-            "thumbnail": "images/placeholder.png",
+            "label": "Button light",
+            "thumbnail": "images/cta-light.jpg",
+            "backgroundWidth": "full",
             "data": {
-                "colors": "colors-c",
+                "colors": "colors-a",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
                 "styles": {
                     "self": {
                         "height": "auto",
@@ -42,7 +52,7 @@
                         "padding": ["pt-12", "pb-12"],
                         "alignItems": "center",
                         "justifyContent": "center",
-                        "flexDirection": "row"
+                        "flexDirection": "col"
                     },
                     "title": {
                         "fontWeight": 700,

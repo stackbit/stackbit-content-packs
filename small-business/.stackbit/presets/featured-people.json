@@ -1,35 +1,19 @@
 {
     "model": "FeaturedPeopleSection",
     "presets": [{
-            "label": "4 columns light",
-            "thumbnail": "images/placeholder.png",
-            "data": {
-                "variant": "variant-a",
-                "colors": "colors-a"
-            }
-        },
-        {
-            "label": "2 columns light ",
-            "thumbnail": "images/placeholder.png",
+            "label": "2 columns grid",
+            "thumbnail": "images/people-grid.jpg",
             "data": {
                 "variant": "variant-b",
                 "colors": "colors-a"
             }
         },
         {
-            "label": "2 columns dark",
-            "thumbnail": "images/placeholder.png",
+            "label": "2 columns alt grid ",
+            "thumbnail": "images/people-alt-grid.jpg",
             "data": {
-                "variant": "variant-b",
-                "colors": "colors-c"
-            }
-        },
-        {
-            "label": "4 columns dark",
-            "thumbnail": "images/placeholder.png",
-            "data": {
-                "variant": "variant-a",
-                "colors": "colors-c"
+                "variant": "variant-c",
+                "colors": "colors-a"
             }
         }
     ]
