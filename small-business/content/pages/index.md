@@ -6,8 +6,8 @@ sections:
     colors: colors-a
     backgroundWidth: full
     backgroundImage:
-      altText: 
-      caption: 
+      altText: null
+      caption: null
       elementId: ''
       styles:
         self:
@@ -66,40 +66,6 @@ sections:
         justifyContent: flex-start
     type: HeroSection
   - elementId: ''
-    colors: colors-a
-    backgroundWidth: full
-    quote: >
-      # “It’s great to see someone taking action while still maintaining a
-      sustainable fish supply"
-    name: Johnna Doe
-    title: Product Marketing Manager at Acme
-    backgroundImage:
-      url: /images/BG.png
-      altText: Product Marketing Manager Quote
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-36
-          - pb-36
-        alignItems: center
-        justifyContent: center
-      quote:
-        textAlign: left
-      name:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: left
-      title:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: left
-    type: QuoteSection
-  - elementId: ''
     variant: variant-a
     colors: colors-a
     backgroundWidth: full
@@ -134,12 +100,13 @@ sections:
         fontWeight: 400
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-12"]
       actions:
         justifyContent: center
     type: FeaturedPostsSection
   - elementId: contact-form
     colors: colors-f
-    backgroundWidth: inset
+    backgroundWidth: full
     title: Contact us
     text: We look forward to hearing from you.
     form:
@@ -185,7 +152,7 @@ sections:
         padding:
           - pt-12
           - pb-8
-        alignItems: flex-end
+        alignItems: center
         justifyContent: flex-end
         flexDirection: row-reverse
       title:
