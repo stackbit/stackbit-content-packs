@@ -53,7 +53,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeaturedPostsSection
-    variant: variant-c
+    variant: variant-a
     colors: colors-c
     backgroundWidth: full
     title: Blog Posts
@@ -73,6 +73,7 @@ sections:
         fontWeight: '700'
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-12"]
       subtitle:
         fontWeight: '400'
         fontStyle: normal
