@@ -27,6 +27,8 @@
     "neutral": "#000000",
     "complementary": "#e9f6ff",
     "complementaryAlt": "#fffde2",
+    "fontFestive": "'Rakkas', cursive"
+
     "buttonPrimary": {
         "radius": 0,
         "case": "none"
@@ -35,4 +37,5 @@
         "radius": 0,
         "case": "none"
     }
+
 }

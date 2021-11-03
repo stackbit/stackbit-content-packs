@@ -1,12 +1,12 @@
 ---
-title: Blog
+title: Blog post page
 layout: PageLayout
 sections:
   - type: FeaturedPostsSection
     variant: variant-a
     colors: colors-e
     backgroundWidth: full
-    title: Blog
+    title: Latest blog posts
     posts:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
@@ -20,11 +20,11 @@ sections:
         alignItems: center
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
       actions:
