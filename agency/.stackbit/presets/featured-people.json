@@ -1,0 +1,20 @@
+{
+    "model": "FeaturedPeopleSection",
+    "presets": [{
+            "label": "2 columns grid",
+            "thumbnail": "images/people-grid.jpg",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-a"
+            }
+        },
+        {
+            "label": "2 columns alt grid ",
+            "thumbnail": "images/people-alt-grid.jpg",
+            "data": {
+                "variant": "variant-c",
+                "colors": "colors-a"
+            }
+        }
+    ]
+}

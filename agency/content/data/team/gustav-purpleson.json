@@ -1,0 +1,13 @@
+{
+    "type": "Person",
+    "id": "gustav-purpleson",
+    "firstName": "Gustav",
+    "lastName": "Purpleson",
+    "role": "Co-Founder, Creative Director",
+    "bio": "Pretium aenean pharetra magna ac placerat vestibulum. Imperdiet sed euismod nisi porta lorem mollis.\n",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team-1.png",
+        "altText": "Gustav Purpleson"
+    }
+}

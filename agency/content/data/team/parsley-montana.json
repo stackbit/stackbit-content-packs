@@ -1,0 +1,12 @@
+{
+    "firstName": "Parsley",
+    "lastName": "Montana",
+    "role": "Senior Designer, Motion Graphics",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n",
+    "image": {
+        "url": "/images/team-4.png",
+        "altText": "Parsley Montana"
+    },
+    "id": "parsley-montana",
+    "type": "Person"
+}

@@ -1,0 +1,72 @@
+{
+    "model": "CtaSection",
+    "presets": [{
+            "label": "Button dark",
+            "thumbnail": "images/cta-dark.jpg",
+            "backgroundWidth": "full",
+            "data": {
+                "colors": "colors-c",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "col"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    },
+                    "actions": {
+                        "justifyContent": "flex-start"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Button light",
+            "thumbnail": "images/cta-light.jpg",
+            "backgroundWidth": "full",
+            "data": {
+                "colors": "colors-a",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "col"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    },
+                    "actions": {
+                        "justifyContent": "flex-start"
+                    }
+                }
+            }
+        }
+    ]
+}
