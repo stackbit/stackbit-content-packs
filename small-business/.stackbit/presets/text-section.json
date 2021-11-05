@@ -2,21 +2,21 @@
     "model": "TextSection",
     "presets": [{
             "label": "Dark",
-            "thumbnail": "images/placeholder.png",
-            "data": {
-                "colors": "colors-c"
-            }
-        },
-        {
-            "label": "Light",
-            "thumbnail": "images/placeholder.png",
+            "thumbnail": "images/text-section-light.jpg",
             "data": {
                 "colors": "colors-a"
             }
         },
         {
+            "label": "Light",
+            "thumbnail": "images/text-section-dark.jpg",
+            "data": {
+                "colors": "colors-c"
+            }
+        },
+        {
             "label": "Complementary",
-            "thumbnail": "images/placeholder.png",
+            "thumbnail": "images/text-section-complementary.jpg",
             "data": {
                 "colors": "colors-h"
             }
