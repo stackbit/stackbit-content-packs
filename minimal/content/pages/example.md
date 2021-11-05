@@ -146,10 +146,12 @@ sections:
     variant: variant-c
     colors: colors-e
     backgroundWidth: full
+    title: Featured Posts
     posts:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-four.md
     styles:
       self:
         height: auto
@@ -162,6 +164,7 @@ sections:
         fontWeight: '700'
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-12"]
       subtitle:
         fontWeight: '400'
         fontStyle: normal

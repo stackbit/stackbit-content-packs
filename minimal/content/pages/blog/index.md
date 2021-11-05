@@ -2,15 +2,11 @@
 title: Blog post page
 layout: PageLayout
 sections:
-  - type: FeaturedPostsSection
+  - type: PostFeedSection
     variant: variant-a
     colors: colors-e
     backgroundWidth: full
-    title: Latest blog posts
-    posts:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-one.md
+    title: Blog
     styles:
       self:
         height: auto
@@ -23,6 +19,7 @@ sections:
         fontWeight: '700'
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-12"]
       subtitle:
         fontWeight: '400'
         fontStyle: normal
