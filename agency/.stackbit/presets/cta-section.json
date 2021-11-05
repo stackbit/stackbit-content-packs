@@ -1,11 +1,11 @@
 {
     "model": "CtaSection",
     "presets": [{
-            "label": "Button dark",
-            "thumbnail": "images/cta-dark.jpg",
+            "label": "Light",
+            "thumbnail": "images/cta-vertical.jpg",
             "backgroundWidth": "full",
             "data": {
-                "colors": "colors-c",
+                "colors": "colors-a",
                 "backgroundImage": {
                     "url": "",
                     "altText": ""
@@ -35,15 +35,114 @@
             }
         },
         {
-            "label": "Button light",
-            "thumbnail": "images/cta-light.jpg",
+            "label": "Light, center",
+            "thumbnail": "images/cta-centered.jpg",
             "backgroundWidth": "full",
             "data": {
                 "colors": "colors-a",
+                "title": "",
+                "text": "## The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.",
                 "backgroundImage": {
                     "url": "",
                     "altText": ""
                 },
+                "actions":[
+                    {
+                        "type":"Button",
+                        "url":"/",
+                        "style":"primary",
+                        "altText":"Try it now",
+                        "label":"Try it now"
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "narrow",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "col"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center"
+                    },
+                    "text": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Light, horizontal",
+            "thumbnail": "images/cta-horizontal.jpg",
+            "backgroundWidth": "full",
+            "data": {
+                "colors": "colors-a",
+                "title": "",
+                "text": "## The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "actions":[
+                    {
+                        "type":"Button",
+                        "url":"/",
+                        "style":"primary",
+                        "altText":"Try it now",
+                        "label":"Try it now"
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    },
+                    "actions": {
+                        "justifyContent": "right"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Color",
+            "thumbnail": "images/cta-color.jpg",
+            "backgroundWidth": "full",
+            "data": {
+                "colors": "colors-e",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "actions":[
+                    {
+                        "type":"Button",
+                        "url":"/",
+                        "style":"secondary",
+                        "altText":"Try it now",
+                        "label":"Try it now"
+                    }
+                ],
                 "styles": {
                     "self": {
                         "height": "auto",

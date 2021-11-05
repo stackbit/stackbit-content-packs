@@ -54,7 +54,7 @@ sections:
       - content/data/team/gordon-norman.json
       - content/data/team/parsley-montana.json
       - content/data/team/hilary-ouse.json
-      - content/data/team/gustav-purpleson.json
+      - content/data/team/desmond-eagle.json
     styles:
       self:
         height: auto
