@@ -2,14 +2,14 @@
     "model": "ContactSection",
     "presets": [
         {
-            "label": "Light, with image",
-            "thumbnail": "images/contact-light.jpg",
+            "label": "With image",
+            "thumbnail": "images/contact-image.jpg",
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
                 "feature":{
                     "type":"ImageBlock",
-                    "url":"/images/Screen Shot 2021-10-26 at 8.33.31 PM.png",
+                    "url":"/images/about.jpg",
                     "altText":"Contact us"
                 },
                 "colors": "colors-a",
@@ -23,7 +23,7 @@
                         "padding": ["pt-12", "pb-12"],
                         "alignItems": "center",
                         "justifyContent": "center",
-                        "flexDirection": "row-reverse"
+                        "flexDirection": "row"
                     },
                     "title": {
                         "fontWeight": 700,
@@ -37,8 +37,8 @@
             }
         },
         {
-            "label": "Dark, no image",
-            "thumbnail": "images/contact-dark.jpg",
+             "label": "Without",
+            "thumbnail": "images/contact-no-image.jpg",
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
@@ -47,19 +47,18 @@
                     "url":"",
                     "altText":""
                 },
-                "colors": "colors-c",
-                "feature": null,
+                "colors": "colors-a",
                 "elementId": "contact-form",
                 "action": "/.netlify/functions/submission_created",
                 "styles": {
                     "self": {
                         "height": "auto",
-                        "width": "wide",
+                        "width": "narrow",
                         "margin": ["mt-0", "mb-0"],
                         "padding": ["pt-12", "pb-12"],
                         "alignItems": "center",
                         "justifyContent": "center",
-                        "flexDirection": "row"
+                        "flexDirection": "col"
                     },
                     "title": {
                         "fontWeight": 700,

@@ -51,10 +51,10 @@ sections:
     subtitle: An optional subtitle of the section
     actions: []
     people:
-      - content/data/team/desmond-eagle.json
-      - content/data/team/dianne-ameter.json
+      - content/data/team/gordon-norman.json
+      - content/data/team/parsley-montana.json
       - content/data/team/hilary-ouse.json
-      - content/data/team/person-evcrq76qa.json
+      - content/data/team/gustav-purpleson.json
     styles:
       self:
         height: auto
@@ -101,20 +101,22 @@ sections:
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         margin:
           - mt-0
           - mb-0
         padding:
           - pt-12
           - pb-12
-        alignItems: flex-end
-        justifyContent: flex-end
+        alignItems: center
+        justifyContent: center
         flexDirection: row
       title:
         fontWeight: 700
         fontStyle: normal
         textAlign: left
+        margin:
+          - mb-5
       subtitle:
         fontWeight: 400
         fontStyle: normal
