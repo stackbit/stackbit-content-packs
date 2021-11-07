@@ -1,0 +1,75 @@
+{
+    "model": "ContactSection",
+    "presets": [
+        {
+            "label": "With image",
+            "thumbnail": "images/contact-image.jpg",
+            "data": {
+                "title": "Contact us",
+                "text": "We look forward to hearing from you.",
+                "feature":{
+                    "type":"ImageBlock",
+                    "url":"/images/about.jpg",
+                    "altText":"Contact us"
+                },
+                "colors": "colors-a",
+                "elementId": "contact-form",
+                "action": "/.netlify/functions/submission_created",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
+            }
+        },
+        {
+             "label": "Without",
+            "thumbnail": "images/contact-no-image.jpg",
+            "data": {
+                "title": "Contact us",
+                "text": "We look forward to hearing from you.",
+                "feature":{
+                    "type":"ImageBlock",
+                    "url":"",
+                    "altText":""
+                },
+                "colors": "colors-a",
+                "elementId": "contact-form",
+                "action": "/.netlify/functions/submission_created",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "narrow",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "col"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
+            }
+        }
+    ]
+}

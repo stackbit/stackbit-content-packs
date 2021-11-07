@@ -1,0 +1,13 @@
+{
+    "type": "Person",
+    "id": "desmond-eagle",
+    "firstName": "Desmond",
+    "lastName": "Eagle",
+    "role": "Co-Founder, Creative Director",
+    "bio": "Pretium aenean pharetra magna ac placerat vestibulum. Imperdiet sed euismod nisi porta lorem mollis.\n",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team-1.png",
+        "altText": "Desmond Eagle"
+    }
+}

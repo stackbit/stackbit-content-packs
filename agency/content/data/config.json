@@ -1,0 +1,122 @@
+{
+    "type": "Config",
+    "header": {
+        "headerVariant": "variant-a",
+        "primaryColors": "colors-a",
+        "secondaryColors": "colors-a",
+        "backgroundWidth": "full",
+        "title": "Agency",
+        "isTitleVisible": false,
+        "logo": {
+            "type": "ImageBlock",
+            "url": "/images/agency-logo.svg",
+            "altText": "Agency"
+        },
+        "primaryLinks": [],
+        "secondaryLinks": [
+            {
+                "type": "Link",
+                "label": "Home",
+                "url": "/",
+                "altText": "Home",
+                "style": "link"
+            },
+            {
+                "label": "Work",
+                "altText": "Work",
+                "url": "/portfolio",
+                "showIcon": false,
+                "icon": "arrowLeft",
+                "iconPosition": "right",
+                "style": "link",
+                "elementId": "",
+                "type": "Link"
+            },
+            {
+                "url": "/blog",
+                "showIcon": false,
+                "icon": "arrowLeft",
+                "iconPosition": "right",
+                "style": "link",
+                "elementId": "",
+                "type": "Link",
+                "label": "Journal",
+                "altText": "Journal"
+            },
+            {
+                "label": "About",
+                "altText": "About",
+                "url": "/about",
+                "showIcon": false,
+                "icon": "arrowLeft",
+                "iconPosition": "right",
+                "style": "link",
+                "elementId": "",
+                "type": "Link"
+            },
+            {
+                "label": "Contact",
+                "altText": "Contact",
+                "url": "/contact",
+                "showIcon": false,
+                "icon": "arrowLeft",
+                "iconPosition": "right",
+                "style": "primary",
+                "elementId": "",
+                "type": "Link"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "full",
+                "padding": [
+                    "pt-5",
+                    "pb-5"
+                ]
+            }
+        }
+    },
+    "footer": {
+        "colors": "colors-a",
+        "backgroundWidth": "full",
+        "title": "",
+        "text": "",
+        "copyrightText": "© Stackbit. All rights reserved. This Jamstack site was created with Stackbit . Create yours now",
+        "socialLinks": [
+            {
+                "type": "Social",
+                "altText": "Twitter",
+                "url": "/",
+                "showIcon": true,
+                "icon": "twitter",
+                "label": "Twitter"
+            },
+            {
+                "type": "Social",
+                "altText": "Instagram",
+                "url": "/",
+                "showIcon": true,
+                "icon": "instagram",
+                "label": "Instagram"
+            },
+            {
+                "type": "Social",
+                "altText": "Facebook",
+                "url": "/",
+                "showIcon": true,
+                "icon": "facebook",
+                "label": "Facebook"
+            }
+        ],
+        "legalLinks": [],
+        "styles": {
+            "self": {
+                "width": "full",
+                "padding": [
+                    "pt-16",
+                    "pb-16"
+                ]
+            }
+        }
+    }
+}

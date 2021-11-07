@@ -1,0 +1,146 @@
+{
+    "model": "QuoteSection",
+    "presets": [{
+            "label": "White background",
+            "thumbnail": "images/quote-left.jpg",
+            "backgroundWith": "full",
+            "data": {
+                "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
+                "colors": "colors-a",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center"
+                    },
+                    "quote": {
+                        "textAlign": "left"
+                    },
+                    "name": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "title": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Background color",
+            "thumbnail": "images/quote-right.jpg",
+            "backgroundWith": "full",
+            "data": {
+                "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
+                "colors": "colors-e",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center"
+                    },
+                    "quote": {
+                        "textAlign": "left"
+                    },
+                    "name": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "right"
+                    },
+                    "title": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "right"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Font color",
+            "thumbnail": "images/quote-font-color.jpg",
+            "backgroundWith": "full",
+            "data": {
+                "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
+                "colors": "colors-d",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"],
+                        "alignItems": "center",
+                        "justifyContent": "center"
+                    },
+                    "quote": {
+                        "textAlign": "left"
+                    },
+                    "name": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    },
+                    "title": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "left"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Grey background, different alignment",
+            "thumbnail": "images/quote-bg-color.jpg",
+            "backgroundWith": "full",
+            "data": {
+                "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
+                "colors": "colors-f",
+                "backgroundImage": {
+                    "url": "",
+                    "altText": ""
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0"],
+                        "padding": ["pt-12", "pb-12"]
+                    },
+                    "quote": {
+                        "textAlign": "right"
+                    },
+                    "name": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "right"
+                    },
+                    "title": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "right"
+                    }
+                }
+            }
+        }
+    ]
+}

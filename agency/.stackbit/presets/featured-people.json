@@ -1,0 +1,28 @@
+{
+    "model": "FeaturedPeopleSection",
+    "presets": [{
+            "label": "2 columns",
+            "thumbnail": "images/featured-people-2-col.jpg",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-a"
+            }
+        },
+        {
+            "label": "4 columns",
+            "thumbnail": "images/featured-people-4-col.jpg",
+            "data": {
+                "variant": "variant-a",
+                "colors": "colors-a"
+            }
+        },
+        {
+            "label": "2 col, larger images",
+            "thumbnail": "images/featured-people-big-images.jpg",
+            "data": {
+                "variant": "variant-c",
+                "colors": "colors-a"
+            }
+        }
+    ]
+}

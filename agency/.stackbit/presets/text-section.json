@@ -1,0 +1,28 @@
+{
+    "model": "TextSection",
+    "presets": [
+        {
+            "label": "Light",
+            "thumbnail": "images/text-white.jpg",
+            "data": {
+                "colors": "colors-a"
+            }
+        },
+        {
+            "label": "Grey",
+            "thumbnail": "images/text-grey.jpg",
+            "data": {
+                "colors": "colors-f"
+            }
+        },
+        {
+            "label": "Color",
+            "thumbnail": "images/text-color.jpg",
+            "data": {
+                "colors": "colors-e"
+            }
+        }
+    ]
+}
+
+

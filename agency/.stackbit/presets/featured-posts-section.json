@@ -1,0 +1,20 @@
+{
+    "model": "FeaturedPostsSection",
+    "presets": [{
+            "label": "3 Columns",
+            "thumbnail": "images/posts-3-col.jpg",
+            "data": {
+                "variant": "variant-a",
+                "colors": "colors-a"
+            }
+        },
+        {
+            "label": "1 Column",
+            "thumbnail": "images/posts-1-col.jpg",
+            "data": {
+                "variant": "variant-c",
+                "colors": "colors-a"
+            }
+        }
+    ]
+}

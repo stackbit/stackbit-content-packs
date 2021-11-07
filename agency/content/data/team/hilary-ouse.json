@@ -1,0 +1,13 @@
+{
+    "type": "Person",
+    "id": "hilary-ouse",
+    "firstName": "Hilary",
+    "lastName": "Ouse",
+    "role": "Co-Founder, Creative Director",
+    "bio": "Dictum fusce ut placerat orci nulla pellentesque. Ipsum faucibus vitae aliquet nec ullamcorper sit.\n",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team-2.png",
+        "altText": "Hilary Ouse"
+    }
+}

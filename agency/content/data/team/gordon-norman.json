@@ -1,0 +1,14 @@
+
+{
+    "type": "Person",
+    "id": "gordon-norman",
+    "firstName": "Gordon",
+    "lastName": "Norman",
+    "role": "Creative Producer",
+    "bio": "Interdum velit euismod in pellentesque massa placerat duis ultricies lacus.\n",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team-3.png",
+        "altText": "Gordon Norman"
+    }
+}

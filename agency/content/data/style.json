@@ -1,0 +1,38 @@
+{
+    "type": "ThemeStyle",
+    "h1": {
+        "weight": "bold",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal"
+    },
+    "h2": {
+        "weight": "bold",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal"
+    },
+    "h3": {
+        "weight": "bold",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal"
+    },
+    "fontBody": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "fontHeadlines": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "body": "#433e3e",
+    "headlines": "#000000",
+    "primary": "#10b981",
+    "secondary": "#f5f6f8",
+    "neutral": "#f5f6f8",
+    "complementary": "#f5f6f8",
+    "complementaryAlt": "#fffde2",
+    "buttonPrimary": {
+        "radius": 0,
+        "case": "none"
+    },
+    "buttonSecondary": {
+        "radius": 0,
+        "case": "none"
+    }
+}
