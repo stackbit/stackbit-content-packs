@@ -1,35 +1,19 @@
 {
     "model": "FeaturedPostsSection",
     "presets": [{
-            "label": "3 columns light",
-            "thumbnail": "images/placeholder.png",
+            "label": "3 Columns",
+            "thumbnail": "images/posts-3-col.jpg",
             "data": {
                 "variant": "variant-a",
                 "colors": "colors-a"
             }
         },
         {
-            "label": "2 columns light",
-            "thumbnail": "images/placeholder.png",
+            "label": "1 Column",
+            "thumbnail": "images/posts-1-col.jpg",
             "data": {
                 "variant": "variant-c",
                 "colors": "colors-a"
-            }
-        },
-        {
-            "label": "2 columns dark",
-            "thumbnail": "images/placeholder.png",
-            "data": {
-                "variant": "variant-c",
-                "colors": "colors-c"
-            }
-        },
-        {
-            "label": "3 columns dark",
-            "thumbnail": "images/placeholder.png",
-            "data": {
-                "variant": "variant-a",
-                "colors": "colors-c"
             }
         }
     ]

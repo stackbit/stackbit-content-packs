@@ -4,7 +4,7 @@ date: '2021-10-26'
 excerpt: Editorial Design
 featuredImage:
   type: ImageBlock
-  url: /images/work-magazine-1-thumb-5904c972.jpeg
+  url: /images/work-book-cover-3.jpeg
   altText: Post thumbnail image
 bottomSections: []
 layout: PostLayout

@@ -1,25 +1,28 @@
 {
     "model": "TextSection",
-    "presets": [{
-            "label": "Dark",
-            "thumbnail": "images/placeholder.png",
-            "data": {
-                "colors": "colors-c"
-            }
-        },
+    "presets": [
         {
             "label": "Light",
-            "thumbnail": "images/placeholder.png",
+            "thumbnail": "images/text-white.jpg",
             "data": {
                 "colors": "colors-a"
             }
         },
         {
-            "label": "Complementary",
-            "thumbnail": "images/placeholder.png",
+            "label": "Grey",
+            "thumbnail": "images/text-grey.jpg",
             "data": {
-                "colors": "colors-h"
+                "colors": "colors-f"
+            }
+        },
+        {
+            "label": "Color",
+            "thumbnail": "images/text-color.jpg",
+            "data": {
+                "colors": "colors-e"
             }
         }
     ]
 }
+
+
