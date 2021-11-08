@@ -45,25 +45,25 @@ module.exports = {
                     textTransform: themeStyle.h3.case
                 }
             }),
-                addComponents({
-                    '.sb-component-button-primary': {
-                        borderRadius: themeStyle.buttonPrimary.borderRadius,
-                        boxShadow: themeStyle.buttonPrimary.shadow,
-                        fontWeight: themeStyle.buttonPrimary.weight,
-                        letterSpacing: themeStyle.buttonPrimary.letterSpacing,
-                        padding: `${themeStyle.buttonPrimary.verticalPadding}px ${themeStyle.buttonPrimary.horizontalPadding}px`,
-                        textTransform: themeStyle.buttonPrimary.case
-                    },
-                    '.sb-component-button-secondary': {
-                        borderRadius: themeStyle.buttonSecondary.borderRadius,
-                        borderStyle: themeStyle.buttonSecondary.borderStyle,
-                        boxShadow: themeStyle.buttonSecondary.shadow,
-                        fontWeight: themeStyle.buttonSecondary.weight,
-                        letterSpacing: themeStyle.buttonSecondary.letterSpacing,
-                        padding: `${themeStyle.buttonSecondary.verticalPadding}px ${themeStyle.buttonSecondary.horizontalPadding}px`,
-                        textTransform: themeStyle.buttonSecondary.case
-                    }
-                });
+            addComponents({
+                '.sb-component-button-primary': {
+                    borderRadius: themeStyle.buttonPrimary.borderRadius,
+                    boxShadow: themeStyle.buttonPrimary.shadow,
+                    fontWeight: themeStyle.buttonPrimary.weight,
+                    letterSpacing: themeStyle.buttonPrimary.letterSpacing,
+                    padding: `${themeStyle.buttonPrimary.verticalPadding}px ${themeStyle.buttonPrimary.horizontalPadding}px`,
+                    textTransform: themeStyle.buttonPrimary.case
+                },
+                '.sb-component-button-secondary': {
+                    borderRadius: themeStyle.buttonSecondary.borderRadius,
+                    borderStyle: themeStyle.buttonSecondary.borderStyle,
+                    boxShadow: themeStyle.buttonSecondary.shadow,
+                    fontWeight: themeStyle.buttonSecondary.weight,
+                    letterSpacing: themeStyle.buttonSecondary.letterSpacing,
+                    padding: `${themeStyle.buttonSecondary.verticalPadding}px ${themeStyle.buttonSecondary.horizontalPadding}px`,
+                    textTransform: themeStyle.buttonSecondary.case
+                }
+            });
         })
     ]
 };

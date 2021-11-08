@@ -4,13 +4,12 @@
         "headerVariant": "variant-d",
         "primaryColors": "colors-b",
         "secondaryColors": "colors-i",
-        "backgroundWidth": "full",
         "title": "Small Business",
         "isTitleVisible": false,
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/Sakanaya logo.svg",
-            "altText": "Logo"
+            "url": "/images/logo.svg",
+            "altText": "Sakanaya logo"
         },
         "primaryLinks": [
             {
@@ -44,20 +43,16 @@
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": [
-                    "pt-5",
-                    "pb-5"
-                ]
+                "padding": ["pt-5", "pb-5", "pr-4", "pl-4"]
             }
         }
     },
     "footer": {
         "colors": "colors-f",
-        "backgroundWidth": "full",
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/Sakanaya logo.svg",
-            "altText": "Logo"
+            "url": "/images/logo.svg",
+            "altText": "Sakanaya logo"
         },
         "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.  \nEaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "contacts": {
@@ -121,10 +116,7 @@
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": [
-                    "pt-16",
-                    "pb-16"
-                ]
+                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
             }
         }
     }

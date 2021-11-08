@@ -9,7 +9,7 @@
                 "text": "We look forward to hearing from you.",
                 "feature":{
                     "type":"ImageBlock",
-                    "url":"/images/Screen Shot 2021-10-26 at 8.33.31 PM.png",
+                    "url":"/images/trout.png",
                     "altText":"Contact us"
                 },
                 "colors": "colors-a",
@@ -48,7 +48,6 @@
                     "altText":""
                 },
                 "colors": "colors-c",
-                "feature": null,
                 "elementId": "contact-form",
                 "action": "/.netlify/functions/submission_created",
                 "styles": {
