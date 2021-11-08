@@ -5,7 +5,6 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-f
-    backgroundWidth: full
     title: This Is A Big Hero Headline
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
@@ -28,7 +27,7 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
         padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         alignItems: center
         justifyContent: center
@@ -55,7 +54,6 @@ sections:
   - type: FeaturedPostsSection
     variant: variant-a
     colors: colors-c
-    backgroundWidth: full
     title: Blog Posts
     posts:
       - content/pages/blog/post-three.md
@@ -65,10 +63,13 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
         padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
-        alignItems: center
         justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
       title:
         fontWeight: '700'
         fontStyle: normal
@@ -78,11 +79,11 @@ sections:
         fontWeight: '400'
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-0"]
       actions:
         justifyContent: center
   - type: TestimonialsSection
     colors: colors-h
-    backgroundWidth: full
     testimonials:
       - quote: |-
           “It’s great to see someone taking action while still maintaining a sustainable fish supply to home cooks.”
@@ -110,21 +111,25 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
         padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
-        alignItems: center
         justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
       title:
         fontWeight: '700'
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-0"]
       subtitle:
         fontWeight: '400'
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-0"]
   - type: CtaSection
     colors: colors-c
-    backgroundWidth: full
     title: Let's do this
     text: |-
       The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
@@ -133,27 +138,31 @@ sections:
         label: Get Started
         url: "https://www.stackbit.com/"
         style: primary
-    actionsPosition: right
     styles:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
         padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         alignItems: center
         justifyContent: center
         flexDirection: row
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
       title:
         fontWeight: '700'
         fontStyle: normal
         textAlign: left
+        margin: ['mt-0', 'mb-4']
       text:
         textAlign: left
+        margin: ['mt-0', 'mb-0']
       actions:
         justifyContent: flex-start
   - type: TextSection
     colors: colors-f
-    backgroundWidth: full
     title: The Section Title
     subtitle: The section subtitle
     text: |-
@@ -162,23 +171,28 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
         padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
-        alignItems: center
         justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
       title:
         fontWeight: '700'
         fontStyle: normal
         textAlign: center
+        margin: ['mt-0', 'mb-2']
       subtitle:
         fontWeight: '400'
         fontStyle: normal
         textAlign: center
+        margin: ['mt-0', 'mb-6']
       text:
         textAlign: center
+        margin: ['mt-0', 'mb-0']
   - type: ContactSection
     colors: colors-h
-    backgroundWidth: full
     title: Join our club
     text: |-
       We will notify you every time a shipment is heading to your neighborhood, and you could immediatly let us know if you want in or not.
@@ -219,15 +233,21 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
         padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         alignItems: center
         justifyContent: center
         flexDirection: row
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
       title:
         fontWeight: '700'
         fontStyle: normal
         textAlign: left
+        margin: ['mt-0', 'mb-6']
       text:
         textAlign: left
+        margin: ['mt-0', 'mb-8']
 ---

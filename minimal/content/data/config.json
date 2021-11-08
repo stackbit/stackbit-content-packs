@@ -4,7 +4,6 @@
     "headerVariant": "variant-a",
     "primaryColors": "colors-a",
     "secondaryColors": "colors-a",
-    "backgroundWidth": "full",
     "title": "Minimal",
     "isTitleVisible": true,
     "logo": {
@@ -57,7 +56,6 @@
   },
   "footer": {
     "colors": "colors-f",
-    "backgroundWidth": "full",
     "logo": {
       "type": "ImageBlock",
       "url": "/images/logo.svg",
