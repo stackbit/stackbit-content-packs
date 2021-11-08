@@ -3,7 +3,6 @@
     "presets": [{
             "label": "White background",
             "thumbnail": "images/quote-left.jpg",
-            "backgroundWith": "full",
             "data": {
                 "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
                 "colors": "colors-a",
@@ -39,7 +38,6 @@
         {
             "label": "Background color",
             "thumbnail": "images/quote-right.jpg",
-            "backgroundWith": "full",
             "data": {
                 "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
                 "colors": "colors-e",
@@ -75,7 +73,6 @@
         {
             "label": "Font color",
             "thumbnail": "images/quote-font-color.jpg",
-            "backgroundWith": "full",
             "data": {
                 "quote": "# It's great to see someone taking action while still maintaining a sustainable fish supply.",
                 "colors": "colors-d",
