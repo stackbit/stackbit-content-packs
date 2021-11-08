@@ -4,7 +4,6 @@
         "headerVariant": "variant-a",
         "primaryColors": "colors-a",
         "secondaryColors": "colors-a",
-        "backgroundWidth": "full",
         "title": "Agency",
         "isTitleVisible": false,
         "logo": {
@@ -69,16 +68,12 @@
         "styles": {
             "self": {
                 "width": "full",
-                "padding": [
-                    "pt-5",
-                    "pb-5"
-                ]
+                "padding": ["pt-5", "pb-5", "pr-4", "pl-4"]
             }
         }
     },
     "footer": {
         "colors": "colors-a",
-        "backgroundWidth": "full",
         "title": "",
         "text": "",
         "copyrightText": "© Stackbit. All rights reserved. This Jamstack site was created with Stackbit . Create yours now",
@@ -112,10 +107,7 @@
         "styles": {
             "self": {
                 "width": "full",
-                "padding": [
-                    "pt-16",
-                    "pb-16"
-                ]
+                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
             }
         }
     }

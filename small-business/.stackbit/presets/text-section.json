@@ -4,21 +4,93 @@
             "label": "Dark",
             "thumbnail": "images/text-section-light.jpg",
             "data": {
-                "colors": "colors-a"
+                "colors": "colors-a",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-2"]
+                    },
+                    "subtitle": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-8"]
+                    },
+                    "text": {
+                        "textAlign": "center"
+                    }
+                }
             }
         },
         {
             "label": "Light",
             "thumbnail": "images/text-section-dark.jpg",
             "data": {
-                "colors": "colors-c"
+                "colors": "colors-c",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-2"]
+                    },
+                    "subtitle": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-8"]
+                    },
+                    "text": {
+                        "textAlign": "center"
+                    }
+                }
             }
         },
         {
             "label": "Complementary",
             "thumbnail": "images/text-section-complementary.jpg",
             "data": {
-                "colors": "colors-h"
+                "colors": "colors-h",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-2"]
+                    },
+                    "subtitle": {
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-8"]
+                    },
+                    "text": {
+                        "textAlign": "center"
+                    }
+                }
             }
         }
     ]

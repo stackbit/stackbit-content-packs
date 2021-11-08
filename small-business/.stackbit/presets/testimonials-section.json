@@ -1,6 +1,7 @@
 {
     "model": "TestimonialsSection",
-    "presets": [{
+    "presets": [
+        {
             "label": "Light, same alignment",
             "thumbnail": "images/testimonial-light.jpg",
             "data": {
@@ -71,9 +72,8 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-12"],
-                        "alignItems": "center",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
                         "justifyContent": "center"
                     },
                     "title": {
@@ -160,9 +160,8 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-12"],
-                        "alignItems": "center",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
                         "justifyContent": "center"
                     },
                     "title": {
@@ -249,9 +248,8 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-12"],
-                        "alignItems": "center",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
                         "justifyContent": "center"
                     },
                     "title": {

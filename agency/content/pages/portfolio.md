@@ -4,7 +4,6 @@ sections:
   - elementId: ''
     variant: variant-b
     colors: colors-a
-    backgroundWidth: full
     title: Portfolio
     subtitle: This is an optional subtitle for the portfolio page
     actions: []
@@ -19,13 +18,8 @@ sections:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         justifyContent: center
       title:
         fontWeight: 700

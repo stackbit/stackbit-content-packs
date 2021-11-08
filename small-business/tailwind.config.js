@@ -28,33 +28,42 @@ module.exports = {
             addBase({
                 h1: {
                     fontWeight: themeStyle.h1.weight,
+                    letterSpacing: themeStyle.h1.letterSpacing,
                     textDecoration: themeStyle.h1.decoration,
-                    textTransform: themeStyle.h1.case,
-                    letterSpacing: themeStyle.h1.letterSpacing
+                    textTransform: themeStyle.h1.case
                 },
                 h2: {
                     fontWeight: themeStyle.h2.weight,
+                    letterSpacing: themeStyle.h2.letterSpacing,
                     textDecoration: themeStyle.h2.decoration,
-                    textTransform: themeStyle.h2.case,
-                    letterSpacing: themeStyle.h2.letterSpacing
+                    textTransform: themeStyle.h2.case
                 },
                 h3: {
                     fontWeight: themeStyle.h3.weight,
+                    letterSpacing: themeStyle.h3.letterSpacing,
                     textDecoration: themeStyle.h3.decoration,
-                    textTransform: themeStyle.h3.case,
-                    letterSpacing: themeStyle.h3.letterSpacing
+                    textTransform: themeStyle.h3.case
                 }
             }),
-                addComponents({
-                    '.sb-component-button-primary': {
-                        borderRadius: themeStyle.buttonPrimary.radius,
-                        textTransform: themeStyle.buttonPrimary.case
-                    },
-                    '.sb-component-button-secondary': {
-                        borderRadius: themeStyle.buttonSecondary.radius,
-                        textTransform: themeStyle.buttonSecondary.case
-                    }
-                });
+            addComponents({
+                '.sb-component-button-primary': {
+                    borderRadius: themeStyle.buttonPrimary.borderRadius,
+                    boxShadow: themeStyle.buttonPrimary.shadow,
+                    fontWeight: themeStyle.buttonPrimary.weight,
+                    letterSpacing: themeStyle.buttonPrimary.letterSpacing,
+                    padding: `${themeStyle.buttonPrimary.verticalPadding}px ${themeStyle.buttonPrimary.horizontalPadding}px`,
+                    textTransform: themeStyle.buttonPrimary.case
+                },
+                '.sb-component-button-secondary': {
+                    borderRadius: themeStyle.buttonSecondary.borderRadius,
+                    borderStyle: themeStyle.buttonSecondary.borderStyle,
+                    boxShadow: themeStyle.buttonSecondary.shadow,
+                    fontWeight: themeStyle.buttonSecondary.weight,
+                    letterSpacing: themeStyle.buttonSecondary.letterSpacing,
+                    padding: `${themeStyle.buttonSecondary.verticalPadding}px ${themeStyle.buttonSecondary.horizontalPadding}px`,
+                    textTransform: themeStyle.buttonSecondary.case
+                }
+            });
         })
     ]
 };

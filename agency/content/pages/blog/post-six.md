@@ -10,8 +10,7 @@ bottomSections:
   - elementId: ''
     variant: variant-a
     colors: colors-a
-    backgroundWidth: full
-    title: More projects
+    title: Read next
     actions: []
     posts:
       - content/pages/blog/post-three.md
@@ -20,18 +19,14 @@ bottomSections:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         justifyContent: center
       title:
         fontWeight: 700
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-12"]
       subtitle:
         fontWeight: 400
         fontStyle: normal

@@ -5,7 +5,6 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
-    backgroundWidth: full
     title: >-
       This is an Award Winning Agency Based in San Francisco and Focusing on
       Digital, Identity, and Print Design.
@@ -19,12 +18,8 @@ sections:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         alignItems: center
         justifyContent: center
         flexDirection: row
@@ -56,7 +51,6 @@ sections:
   - type: FeaturedPostsSection
     variant: variant-b
     colors: colors-a
-    backgroundWidth: full
     title: Recent work
     posts:
       - content/pages/blog/post-three.md
@@ -69,13 +63,8 @@ sections:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         justifyContent: flex-start
       title:
         fontWeight: 700

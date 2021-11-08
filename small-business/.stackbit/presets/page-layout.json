@@ -1,6 +1,7 @@
 {
     "model": "PageLayout",
-    "presets": [{
+    "presets": [
+        {
             "label": "Landing",
             "thumbnail": "images/page-landing.jpg",
             "data":{
@@ -24,23 +25,23 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "margin": ["mt-0", "mb-0"],
-                                "padding": ["pt-12", "pb-12"],
+                                "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                                "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
                                 "alignItems": "center",
                                 "justifyContent": "center",
-                                "flexDirection": "row"
+                                "flexDirection": "row-reverse"
                             },
                             "title": {
                                 "fontWeight": 700,
                                 "fontStyle": "normal",
                                 "textAlign": "left",
-                                "margin": ["mb-12"]
+                                "margin": ["mt-0", "mb-0"]
                             },
                             "subtitle": {
                                 "fontWeight": 400,
                                 "fontStyle": "normal",
                                 "textAlign": "left",
-                                "margin": ["mb-8", "mt-8"]
+                                "margin": ["mt-8", "mb-8"]
                             },
                             "text": {
                                 "textAlign": "left"
@@ -52,7 +53,8 @@
                     }
                 ]
             }
-        }, {
+        },
+        {
             "label": "Contact",
             "thumbnail": "images/page-contact.jpg",
             "data": {
@@ -97,8 +99,8 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "margin": ["mt-0", "mb-0"],
-                                "padding": ["pt-12", "pb-12"],
+                                "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                                "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
                                 "alignItems": "center",
                                 "justifyContent": "center",
                                 "flexDirection": "row"
@@ -107,15 +109,17 @@
                                 "fontWeight": 700,
                                 "fontStyle": "normal",
                                 "textAlign": "left",
-                                "margin": ["mb-8"]
+                                "margin": ["mt-0", "mb-8"]
                             },
                             "subtitle": {
                                 "fontWeight": 400,
                                 "fontStyle": "normal",
-                                "textAlign": "left"
+                                "textAlign": "left",
+                                "margin": ["mt-0", "mb-8"]
                             },
                             "text": {
-                                "textAlign": "left"
+                                "textAlign": "left",
+                                "margin": ["mt-0", "mb-8"]
                             },
                             "actions": {
                                 "justifyContent": "flex-start"
@@ -145,8 +149,8 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "margin": ["mt-0", "mb-0"],
-                                "padding": ["pt-12", "pb-12"],
+                                "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                                "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
                                 "alignItems": "center",
                                 "justifyContent": "center",
                                 "flexDirection": "row"
@@ -155,15 +159,17 @@
                                 "fontWeight": 700,
                                 "fontStyle": "normal",
                                 "textAlign": "left",
-                                "margin": ["mb-8"]
+                                "margin": ["mt-0", "mb-8"]
                             },
                             "subtitle": {
                                 "fontWeight": 400,
                                 "fontStyle": "normal",
-                                "textAlign": "left"
+                                "textAlign": "left",
+                                "margin": ["mt-0", "mb-8"]
                             },
                             "text": {
-                                "textAlign": "left"
+                                "textAlign": "left",
+                                "margin": ["mt-0", "mb-8"]
                             },
                             "actions": {
                                 "justifyContent": "flex-start"
@@ -187,8 +193,8 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "margin": ["mt-0", "mb-0"],
-                                "padding": ["pt-12", "pb-12"],
+                                "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                                "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
                                 "alignItems": "center",
                                 "justifyContent": "center",
                                 "flexDirection": "row"
@@ -196,7 +202,8 @@
                             "title": {
                                 "fontWeight": 700,
                                 "fontStyle": "normal",
-                                "textAlign": "left"
+                                "textAlign": "left",
+                                "margin": ["mt-0", "mb-4"]
                             },
                             "text": {
                                 "textAlign": "left"

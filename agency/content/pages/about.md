@@ -4,14 +4,10 @@ sections:
   - type: HeroSection
     title: Our story
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
-      venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus
-      magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus
-      sagittis enim est, et semper lectus hendrerit ut.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Sagittis enim est, et semper lectus hendrerit ut.
 
 
-      In sollicitudin imperdiet turpis quis accumsan. Pellentesque euismod
-      turpis et nisi fermentum accumsan.
+      In sollicitudin imperdiet turpis quis accumsan. Pellentesque euismod turpis et nisi fermentum accumsan.
     feature:
       type: ImageBlock
       url: /images/about.jpg
@@ -20,12 +16,8 @@ sections:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         alignItems: center
         justifyContent: center
         flexDirection: col
@@ -33,23 +25,22 @@ sections:
         fontWeight: 700
         fontStyle: normal
         textAlign: left
-        margin:
-          - mb-8
+        margin: ["mt-0", "mb-8"]
       subtitle:
         fontWeight: 400
         fontStyle: normal
         textAlign: left
       text:
         textAlign: left
+        margin: ["mt-0", "mb-8"]
       actions:
         justifyContent: flex-start
-  - elementId: ''
+  - type: FeaturedPeopleSection
+    elementId: ''
     variant: variant-a
     colors: colors-a
-    backgroundWidth: full
     title: The Team
     subtitle: An optional subtitle of the section
-    actions: []
     people:
       - content/data/team/gordon-norman.json
       - content/data/team/parsley-montana.json
@@ -59,28 +50,24 @@ sections:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-4"]
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-12"]
       actions:
         justifyContent: center
-    type: FeaturedPeopleSection
-  - elementId: ''
+  - type: HeroSection
+    elementId: ''
     colors: colors-h
-    backgroundWidth: inset
     backgroundImage:
       elementId: ''
       styles:
@@ -93,7 +80,6 @@ sections:
       interested in working for Agency, please send an email to
       [email@example.com ](mailto:email@email.com)with your CV and which
       position you are interested in.
-    actions: []
     feature:
       type: ImageBlock
       url: /images/cta-about.svg
@@ -102,12 +88,8 @@ sections:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         alignItems: center
         justifyContent: center
         flexDirection: row
@@ -115,16 +97,15 @@ sections:
         fontWeight: 700
         fontStyle: normal
         textAlign: left
-        margin:
-          - mb-5
+        margin: ["mt-0", "mb-5"]
       subtitle:
         fontWeight: 400
         fontStyle: normal
         textAlign: left
       text:
         textAlign: left
+        margin: ["mt-0", "mb-8"]
       actions:
         justifyContent: flex-start
-    type: HeroSection
 layout: PageLayout
 ---

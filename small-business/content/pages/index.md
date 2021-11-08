@@ -2,30 +2,18 @@
 title: Home
 layout: PageLayout
 sections:
-  - elementId: ''
+  - type: HeroSection
+    elementId: ''
     colors: colors-a
-    backgroundWidth: full
-    backgroundImage:
-      altText: null
-      caption: null
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
     title: We do fishing differently.
     subtitle: Fresh. Better. Faster
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
     actions:
       - type: Button
         label: Get Started
         url: /
         style: primary
-        elementId: hero-main-button
       - type: Button
         label: Learn More
         url: /
@@ -38,39 +26,30 @@ sections:
       self:
         height: screen
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: left
-        margin:
-          - mt-12
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: left
-        margin:
-          - mt-8
-          - mb-8
+        margin: ["mt-8", "mb-8"]
       text:
         textAlign: left
       actions:
         justifyContent: flex-start
-    type: HeroSection
-  - elementId: ''
+  - type: FeaturedPostsSection
+    elementId: ''
     variant: variant-a
     colors: colors-a
-    backgroundWidth: full
     title: Services & Experiences
-    subtitle: 'Like we said, it''s more than just fishing'
+    subtitle: "Like we said, it's more than just fishing"
     actions:
       - type: Button
         label: View all
@@ -84,29 +63,23 @@ sections:
       self:
         height: screen
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
         margin: ["mt-0", "mb-12"]
       actions:
         justifyContent: center
-    type: FeaturedPostsSection
-  - elementId: contact-form
+  - type: ContactSection
+    elementId: contact-form
     colors: colors-f
-    backgroundWidth: full
     title: Contact us
     text: We look forward to hearing from you.
     form:
@@ -140,27 +113,23 @@ sections:
       submitLabel: Send Message
     feature:
       type: ImageBlock
-      url: /images/Screen Shot 2021-10-26 at 8.33.31 PM.png
+      url: /images/trout.png
       altText: Contact form image
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-24
-        padding:
-          - pt-12
-          - pb-8
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-24", "pr-4", "pl-4"]
         alignItems: center
-        justifyContent: flex-end
+        justifyContent: center
         flexDirection: row-reverse
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: left
+        margin: ["mt-0", "mb-4"]
       text:
         textAlign: left
-    action: /.netlify/functions/submission_created
-    type: ContactSection
+        margin: ["mt-0", "mb-12"]
 ---

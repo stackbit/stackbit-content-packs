@@ -5,11 +5,19 @@ excerpt: >-
   Interior design is “the art or process of designing the interior, often
   including the exterior, of a room or building”. An interior designer is
   someone who coordinates and manages such projects.
+featuredImage:
+  type: ImageBlock
+  url: /images/post-2-thumb.jpeg
+  altText: 'Interior designer '
+  caption: lorem-ipsum
+  elementId: ''
+  styles:
+    self:
+      opacity: 100
 bottomSections:
   - elementId: ''
     variant: variant-a
     colors: colors-a
-    backgroundWidth: full
     title: Read next
     actions: []
     posts:
@@ -19,18 +27,14 @@ bottomSections:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
+        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
+        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
         justifyContent: center
       title:
         fontWeight: 700
         fontStyle: normal
         textAlign: center
+        margin: ["mt-0", "mb-12"]
       subtitle:
         fontWeight: 400
         fontStyle: normal
@@ -39,15 +43,6 @@ bottomSections:
         justifyContent: center
     type: FeaturedPostsSection
 layout: PostLayout
-featuredImage:
-  altText: 'Interior designer '
-  caption: lorem-ipsum
-  elementId: ''
-  styles:
-    self:
-      opacity: 100
-  type: ImageBlock
-  url: /images/post-2-thumb.jpeg
 ---
 > Interior design is “the art or process of designing the interior, often including the exterior, of a room or building”.
 
