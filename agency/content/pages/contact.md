@@ -14,14 +14,16 @@ sections:
       submitLabel: Send Message
       fields:
         - type: TextFormControl
+          name: name
           label: Name
           placeholder: Your name
           width: full
         - type: EmailFormControl
+          name: email
           label: Email
           placeholder: Your email
           width: full
-        - name: Services
+        - name: services
           label: What services are you looking for?
           defaultValue: Please select...
           options:
@@ -42,24 +44,24 @@ sections:
             I understand that this form is storing my submitted information so I
             can be contacted.
           width: full
-          name: checkbox
+          name: consent
     styles:
       self:
         height: auto
         width: narrow
-        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
         alignItems: center
         justifyContent: center
         flexDirection: col
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: left
         margin:
           - mb-5
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: left
       text:
@@ -93,15 +95,15 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
       text:

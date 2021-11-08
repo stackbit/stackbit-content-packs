@@ -17,19 +17,19 @@ sections:
       self:
         height: screen
         width: wide
-        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
         justifyContent: center
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: center
-        margin: ["mt-0", "mb-2"]
+        margin: ['mt-0', 'mb-2']
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: center
-        margin: ["mt-0", "mb-12"]
+        margin: ['mt-0', 'mb-12']
       actions:
         justifyContent: center
     subtitle: 'News, tips and highlights'
