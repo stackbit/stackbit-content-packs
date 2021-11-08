@@ -1,8 +1,8 @@
 {
     "model": "TextSection",
     "presets": [{
-            "label": "Dark",
-            "thumbnail": "images/text-section-light.jpg",
+            "label": "Light",
+            "thumbnail": "images/text-light.jpg",
             "data": {
                 "colors": "colors-a",
                 "styles": {
@@ -32,8 +32,8 @@
             }
         },
         {
-            "label": "Light",
-            "thumbnail": "images/text-section-dark.jpg",
+            "label": "Dark",
+            "thumbnail": "images/text-dark.jpg",
             "data": {
                 "colors": "colors-c",
                 "styles": {
@@ -64,7 +64,7 @@
         },
         {
             "label": "Complementary",
-            "thumbnail": "images/text-section-complementary.jpg",
+            "thumbnail": "images/text-color.jpg",
             "data": {
                 "colors": "colors-h",
                 "styles": {
