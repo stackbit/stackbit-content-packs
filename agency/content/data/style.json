@@ -28,11 +28,22 @@
     "complementary": "#f5f6f8",
     "complementaryAlt": "#fffde2",
     "buttonPrimary": {
-        "radius": 0,
-        "case": "none"
+        "weight": "normal",
+        "case": "none",
+        "letterSpacing": "normal",
+        "borderRadius": 0,
+        "horizontalPadding": 24,
+        "verticalPadding": 12,
+        "shadow": "none"
     },
     "buttonSecondary": {
-        "radius": 0,
-        "case": "none"
+        "weight": "normal",
+        "case": "none",
+        "letterSpacing": "normal",
+        "borderRadius": 0,
+        "borderStyle": "solid",
+        "horizontalPadding": 24,
+        "verticalPadding": 12,
+        "shadow": "none"
     }
 }

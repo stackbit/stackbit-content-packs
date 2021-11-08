@@ -1,9 +1,9 @@
 {
     "model": "CtaSection",
-    "presets": [{
+    "presets": [
+        {
             "label": "Light",
             "thumbnail": "images/cta-vertical.jpg",
-            "backgroundWidth": "full",
             "data": {
                 "colors": "colors-a",
                 "backgroundImage": {
@@ -14,8 +14,8 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-12"],
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pr-4", "pl-4"],
                         "alignItems": "center",
                         "justifyContent": "center",
                         "flexDirection": "col"
@@ -37,7 +37,6 @@
         {
             "label": "Light, center",
             "thumbnail": "images/cta-centered.jpg",
-            "backgroundWidth": "full",
             "data": {
                 "colors": "colors-a",
                 "title": "",
@@ -59,8 +58,8 @@
                     "self": {
                         "height": "auto",
                         "width": "narrow",
-                        "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-12"],
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pr-4", "pl-4"],
                         "alignItems": "center",
                         "justifyContent": "center",
                         "flexDirection": "col"
@@ -82,7 +81,6 @@
         {
             "label": "Light, horizontal",
             "thumbnail": "images/cta-horizontal.jpg",
-            "backgroundWidth": "full",
             "data": {
                 "colors": "colors-a",
                 "title": "",
@@ -104,8 +102,8 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-12"],
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pr-4", "pl-4"],
                         "alignItems": "center",
                         "justifyContent": "center",
                         "flexDirection": "row"
@@ -127,7 +125,6 @@
         {
             "label": "Color",
             "thumbnail": "images/cta-color.jpg",
-            "backgroundWidth": "full",
             "data": {
                 "colors": "colors-e",
                 "backgroundImage": {
@@ -147,8 +144,8 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "margin": ["mt-0", "mb-0"],
-                        "padding": ["pt-12", "pb-12"],
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pr-4", "pl-4"],
                         "alignItems": "center",
                         "justifyContent": "center",
                         "flexDirection": "col"
