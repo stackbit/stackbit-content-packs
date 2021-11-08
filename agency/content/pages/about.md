@@ -16,23 +16,23 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
         alignItems: center
         justifyContent: center
         flexDirection: col
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: left
-        margin: ["mt-0", "mb-8"]
+        margin: ['mt-0', 'mb-8']
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: left
       text:
         textAlign: left
-        margin: ["mt-0", "mb-8"]
+        margin: ['mt-0', 'mb-8']
       actions:
         justifyContent: flex-start
   - type: FeaturedPeopleSection
@@ -50,19 +50,19 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
         justifyContent: center
       title:
         fontWeight: '700'
         fontStyle: normal
         textAlign: center
-        margin: ["mt-0", "mb-4"]
+        margin: ['mt-0', 'mb-4']
       subtitle:
         fontWeight: '400'
         fontStyle: normal
         textAlign: center
-        margin: ["mt-0", "mb-12"]
+        margin: ['mt-0', 'mb-12']
       actions:
         justifyContent: center
   - type: HeroSection
@@ -88,23 +88,23 @@ sections:
       self:
         height: auto
         width: narrow
-        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
         alignItems: center
         justifyContent: center
         flexDirection: row
       title:
-        fontWeight: 700
+        fontWeight: '700'
         fontStyle: normal
         textAlign: left
-        margin: ["mt-0", "mb-5"]
+        margin: ['mt-0', 'mb-5']
       subtitle:
-        fontWeight: 400
+        fontWeight: '400'
         fontStyle: normal
         textAlign: left
       text:
         textAlign: left
-        margin: ["mt-0", "mb-8"]
+        margin: ['mt-0', 'mb-8']
       actions:
         justifyContent: flex-start
 layout: PageLayout
