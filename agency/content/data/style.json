@@ -23,8 +23,8 @@
     "body": "#433e3e",
     "headlines": "#000000",
     "primary": "#10b981",
-    "secondary": "#f5f6f8",
-    "neutral": "#f5f6f8",
+    "secondary": "#dffcf3",
+    "neutral": "#424b5e",
     "complementary": "#f5f6f8",
     "complementaryAlt": "#fffde2",
     "buttonPrimary": {

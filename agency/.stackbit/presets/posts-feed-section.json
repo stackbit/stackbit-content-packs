@@ -1,0 +1,105 @@
+{
+    "model": "PostFeedSection",
+    "presets": [
+        {
+            "label": "3 columns grid, light",
+            "thumbnail": "images/latest-posts-grid-light.jpg",
+            "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-a",
+                "colors": "colors-a",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-12"]
+                    }
+                }
+            }
+        },
+        {
+            "label": "3 columns grid, color",
+            "thumbnail": "images/latest-posts-grid-color.jpg",
+            "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-a",
+                "colors": "colors-e",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-12"]
+                    }
+                }
+            }
+        },
+        {
+            "label": "List, light",
+            "thumbnail": "images/latest-posts-list-light.jpg",
+            "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-b",
+                "colors": "colors-a",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-12"]
+                    }
+                }
+            }
+        },
+        {
+            "label": "List, color",
+            "thumbnail": "images/latest-posts-list-color.jpg",
+            "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-b",
+                "colors": "colors-e",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-12"]
+                    }
+                }
+            }
+        }
+    ]
+}
