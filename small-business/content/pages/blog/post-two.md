@@ -2,7 +2,7 @@
 title: Bi-weekly delivery
 layout: PostLayout
 date: '2020-05-21'
-author: content/data/team/hugh-saturation.json
+author: content/data/team/desmond-eagle.json
 excerpt: >-
   Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem
   semper. Donec sed facilisis nibh.
