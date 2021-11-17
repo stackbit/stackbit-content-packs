@@ -1,0 +1,79 @@
+{
+    "model": "FeaturedPostsSection",
+    "presets": [{
+            "label": "3 columns, light",
+            "thumbnail": "images/featured-posts-3-col-light.jpg",
+            "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-a",
+                "colors": "colors-a",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-12"]
+                    }
+                }
+            }
+        },
+        {
+            "label": "List, light",
+            "thumbnail": "images/featured-posts-light.jpg",
+            "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-d",
+                "colors": "colors-a",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-12"]
+                    }
+                }
+            }
+        },
+        {
+            "label": "2 columns, dark",
+            "thumbnail": "images/featured-posts-dark.jpg",
+            "data": {
+                "title": "Latest posts",
+                "subtitle": "",
+                "variant": "variant-b",
+                "colors": "colors-c",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "textAlign": "center",
+                        "margin": ["mt-0", "mb-12"]
+                    }
+                }
+            }
+        }
+    ]
+}
