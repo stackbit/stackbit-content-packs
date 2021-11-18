@@ -3,6 +3,7 @@ title: Post Title Four
 layout: PostLayout
 date: "2021-11-03"
 author: content/data/team/hugh-saturation.json
+category: content/pages/blog/category/react.md
 excerpt: |-
   Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer condimentum dignissim justo vel faucibus.
 featuredImage:

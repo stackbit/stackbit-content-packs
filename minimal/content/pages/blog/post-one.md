@@ -3,6 +3,7 @@ title: Post Title One
 layout: PostLayout
 date: "2021-06-28"
 author: content/data/team/dianne-ameter.json
+category: content/pages/blog/category/react.md
 excerpt: |-
   Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend.
 featuredImage:
