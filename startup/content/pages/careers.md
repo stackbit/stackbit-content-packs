@@ -194,11 +194,11 @@ sections:
             style: link
             elementId: ''
             type: Link
-    columns: 2
+    columns: 1
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         margin:
           - mt-0
           - mb-0
