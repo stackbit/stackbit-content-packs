@@ -477,8 +477,9 @@ sections:
       actions:
         justifyContent: center
     type: FeaturedPostsSection
-  - colors: colors-e
+  - colors: colors-a
     elementId: ''
+    variant: variant-b
     title: Need Answers?
     items:
       - type: ItemBlock
@@ -568,7 +569,7 @@ sections:
       title:
         fontWeight: '700'
         fontStyle: normal
-        textAlign: center
+        textAlign: left
         margin:
           - mt-0
           - mb-24
