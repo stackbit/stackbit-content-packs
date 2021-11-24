@@ -2,67 +2,151 @@
     "model": "FeaturedPostsSection",
     "presets": [
         {
-            "label": "3 columns light",
-            "thumbnail": "images/featured-posts-3-light.png",
-            "data": {
-                "variant": "variant-a",
-                "colors": "colors-a"
-            }
-        },
-        {
-            "label": "2 columns light",
-            "thumbnail": "images/featured-posts-2-light.png",
+            "label": "Featured posts light - 2 columns",
+            "thumbnail": "images/feat-posts-light-2-col.png",
             "data": {
                 "variant": "variant-b",
-                "colors": "colors-a"
+                "colors": "colors-h",
+                "title": "Featured",
+                "subtitle": "Featured blog posts section example",
+                "actions": [
+                    {
+                        "type": "Button",
+                        "label": "View All",
+                        "altText": "View All Posts",
+                        "url": "/blog",
+                        "style": "primary"
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
             }
         },
         {
-            "label": "2 columns mixed light",
-            "thumbnail": "images/featured-posts-2-mixed-light.png",
+            "label": "Featured posts light - mixed",
+            "thumbnail": "images/feat-posts-light-mixed.png",
             "data": {
                 "variant": "variant-c",
-                "colors": "colors-a"
+                "colors": "colors-h",
+                "title": "Featured",
+                "subtitle": "Featured blog posts section example",
+                "actions": [
+                    {
+                        "type": "Button",
+                        "label": "View All",
+                        "altText": "View All Posts",
+                        "url": "/blog",
+                        "style": "primary"
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
             }
         },
         {
-            "label": "List light",
-            "thumbnail": "images/featured-posts-list-light.png",
-            "data": {
-                "variant": "variant-d",
-                "colors": "colors-a"
-            }
-        },
-        {
-            "label": "3 columns dark",
-            "thumbnail": "images/featured-posts-3-dark.png",
+            "label": "Featured posts dark - 3 columns",
+            "thumbnail": "images/feat-posts-dark-3-col.png",
             "data": {
                 "variant": "variant-a",
-                "colors": "colors-c"
+                "colors": "colors-f",
+                "title": "Featured",
+                "subtitle": "Featured blog posts section example",
+                "actions": [
+                    {
+                        "type": "Button",
+                        "label": "View All",
+                        "altText": "View All Posts",
+                        "url": "/blog",
+                        "style": "primary"
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
             }
         },
         {
-            "label": "2 columns dark",
-            "thumbnail": "images/featured-posts-2-dark.png",
-            "data": {
-                "variant": "variant-b",
-                "colors": "colors-c"
-            }
-        },
-        {
-            "label": "2 columns mixed dark",
-            "thumbnail": "images/featured-posts-2-mixed-dark.png",
-            "data": {
-                "variant": "variant-c",
-                "colors": "colors-c"
-            }
-        },
-        {
-            "label": "List dark",
-            "thumbnail": "images/featured-posts-list-dark.png",
+            "label": "Featured posts dark - list",
+            "thumbnail": "images/feat-posts-dark-list.png",
             "data": {
                 "variant": "variant-d",
-                "colors": "colors-c"
+                "colors": "colors-f",
+                "title": "Featured",
+                "subtitle": "Featured blog posts section example",
+                "actions": [
+                    {
+                        "type": "Button",
+                        "label": "View All",
+                        "altText": "View All Posts",
+                        "url": "/blog",
+                        "style": "primary"
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
             }
         }
     ]
