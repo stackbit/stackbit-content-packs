@@ -1,5 +1,5 @@
 ---
 layout: PostFeedCategoryLayout
-title: React
+title: Jamstack
 numOfPostsPerPage: 10
 ---
