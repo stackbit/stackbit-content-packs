@@ -4,14 +4,14 @@ layout: PageLayout
 sections:
   - type: HeroSection
     elementId: ''
-    colors: colors-h
+    colors: colors-a
     title: We write things. Sometimes it’s important, most times it’s not.
     actions:
       - type: Button
         url: '#'
         label: Download
         style: primary
-    feature:
+    media:
       type: ImageBlock
       url: /images/hero.png
       altText: Image alt text
@@ -19,7 +19,7 @@ sections:
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         margin:
           - mt-0
           - mb-0
@@ -30,7 +30,7 @@ sections:
           - pb-12
           - pl-4
           - pr-4
-        alignItems: center
+        alignItems: flex-start
         justifyContent: center
         flexDirection: row
         borderRadius: none
@@ -63,6 +63,8 @@ sections:
     variant: variant-b
     colors: colors-a
     title: Recent posts
+    showDate: true
+    showAuthor: true
     actions:
       - type: Button
         label: Read all posts
@@ -75,24 +77,24 @@ sections:
       self:
         height: screen
         width: wide
-        margin: ["mt-0", "mb-0", "ml-0", "mr-0"]
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
         justifyContent: center
       title:
         fontWeight: '700'
         fontStyle: normal
         textAlign: center
-        margin: ["mb-20"]
+        margin: ['mb-20']
       subtitle:
         fontWeight: '400'
         fontStyle: normal
         textAlign: center
-        margin: ["mt-0", "mb-12"]
+        margin: ['mt-0', 'mb-12']
       actions:
         justifyContent: center
   - type: QuoteSection
     elementId: ''
-    colors: colors-c
+    colors: colors-a
     backgroundImage:
       url: /images/quote-bg.png
       altText: Product Marketing Manager Quote
@@ -120,57 +122,54 @@ sections:
         fontWeight: 400
         fontStyle: normal
         textAlign: left
-  - type: ContactSection
-    colors: colors-c
+  - type: HeroSection
+    elementId: ''
+    colors: colors-a
     title: Get early access
-    text: >
-      Sign up your team today to be the first to try out our new product to
-      increase your team's productivity
-    form:
+    subtitle: Section subtitle
+    text: >-
+      Sign up your team today to be the first to try out our new product to increae your team’s productivity
+    actions: null
+    media:
       type: FormBlock
-      elementId: contact-form
-      destination: ''
-      action: /.netlify/functions/submission_created
+      elementId: hero-form
       fields:
-        - name: lorem-ipsum
+        - type: EmailFormControl
+          name: email
           placeholder: Email
-          isRequired: false
+          isRequired: true
           width: full
-          type: EmailFormControl
       submitLabel: SIGN UP
+      styles:
+        submitLabel:
+          textAlign: center
     styles:
       self:
-        height: auto
+        height: screen
         width: narrow
         margin:
-          - mt-36
+          - mt-0
           - mb-0
           - ml-0
           - mr-0
         padding:
-          - pt-12
+          - pt-32
           - pb-12
-          - pr-4
-          - pl-4
+          - pl-0
+          - pr-0
         alignItems: center
         justifyContent: center
-        flexDirection: row
-        borderRadius: none
+        flexDirection: col
+        borderRadius: 10px
         borderWidth: 0
         borderStyle: none
-        borderColor: border-neutral
+        borderColor: border-dark
       title:
-        fontWeight: '700'
-        fontStyle: normal
         textAlign: center
-        margin:
-          - mt-0
-          - mb-6
+      subtitle:
+        textAlign: center
       text:
         textAlign: center
-        margin:
-          - mt-0
-          - mb-8
       actions:
         justifyContent: center
 ---

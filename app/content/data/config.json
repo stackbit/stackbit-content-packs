@@ -2,7 +2,7 @@
     "type": "Config",
     "header": {
         "headerVariant": "variant-b",
-        "primaryColors": "colors-b",
+        "primaryColors": "colors-a",
         "secondaryColors": "colors-i",
         "title": "Mobile app",
         "isTitleVisible": false,
@@ -39,11 +39,11 @@
                 "width": "narrow",
                 "padding": ["pt-5", "pb-5", "pr-4", "pl-4"]
             },
-            "title": {"fontWeight": 700}
+            "title": { "fontWeight": 700 }
         }
     },
     "footer": {
-        "colors": "colors-f",
+        "colors": "colors-a",
         "logo": {
             "type": "ImageBlock",
             "url": "/images/mobile-app-logo.svg",
